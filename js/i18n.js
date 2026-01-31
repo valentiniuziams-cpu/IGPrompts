@@ -3,6 +3,10 @@
    Professional Multilingual Solution
    =================================== */
 
+console.log('🔵 i18n.js loaded - Starting initialization...');
+console.log('🔵 Current page URL:', window.location.href);
+console.log('🔵 i18next available?', typeof i18next !== 'undefined');
+
 // Language configurations
 const languages = {
     en: { name: 'EN', nativeName: 'English', flag: 'EN' },
@@ -126,11 +130,16 @@ function translatePage() {
 
 // Create language selector UI
 function createLanguageSelector() {
+    console.log('🔵 createLanguageSelector() called');
+
     const navMenu = document.querySelector('.nav-menu');
     if (!navMenu) {
-        console.warn('⚠️ Navigation menu not found');
+        console.error('❌ Navigation menu (.nav-menu) not found!');
+        console.log('Available nav elements:', document.querySelectorAll('nav'));
         return;
     }
+
+    console.log('✅ Nav menu found:', navMenu);
 
     // Check if already exists
     if (document.querySelector('.language-selector')) {
