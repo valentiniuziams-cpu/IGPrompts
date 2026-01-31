@@ -232,9 +232,17 @@ function createLanguageSelector() {
     container.appendChild(toggle);
     container.appendChild(dropdown);
 
-    // Add to nav menu - append at the end (right side)
-    navMenu.appendChild(container);
-    console.log('✅ Language selector created');
+    // Add to nav-wrapper instead of nav-menu
+    // This allows it to be visible on mobile outside the hamburger menu
+    const navWrapper = document.querySelector('.nav-wrapper');
+    if (navWrapper) {
+        navWrapper.appendChild(container);
+        console.log('✅ Language selector created in nav-wrapper');
+    } else {
+        // Fallback to nav-menu if nav-wrapper not found
+        navMenu.appendChild(container);
+        console.log('✅ Language selector created in nav-menu (fallback)');
+    }
 }
 
 // Update language selector UI

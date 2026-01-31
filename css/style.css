@@ -127,7 +127,7 @@ ul, ol {
 .language-selector {
     position: relative;
     display: inline-block;
-    margin-left: var(--spacing-sm);
+    order: 10; /* Place after nav-menu on desktop */
 }
 
 .language-toggle {
@@ -256,6 +256,8 @@ ul, ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--spacing-sm);
+    position: relative;
 }
 
 .logo {
@@ -293,6 +295,7 @@ ul, ol {
     border: none;
     cursor: pointer;
     padding: var(--spacing-xs);
+    order: 20; /* Place after language selector */
 }
 
 .mobile-menu-toggle span {

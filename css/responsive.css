@@ -45,27 +45,22 @@
         margin-top: var(--spacing-sm);
     }
 
-    /* Language Selector on Mobile */
-    .nav-controls {
-        width: 100%;
-        margin-top: var(--spacing-sm);
-        padding-top: var(--spacing-sm);
-        border-top: 1px solid var(--border-light);
-    }
-
+    /* Language Selector on Mobile - visible in navbar */
     .language-selector {
-        width: 100%;
+        order: 15; /* Between nav-menu and hamburger */
+        margin-left: auto; /* Push to right */
+        margin-right: var(--spacing-sm);
     }
 
     .language-toggle {
-        width: 100%;
-        justify-content: space-between;
+        min-width: auto;
+        padding: 0.5rem 0.75rem;
     }
 
     .language-dropdown {
-        right: auto;
-        left: 0;
-        width: 100%;
+        right: 0;
+        left: auto;
+        min-width: 200px;
     }
 
     .mobile-menu-toggle.active span:nth-child(1) {
