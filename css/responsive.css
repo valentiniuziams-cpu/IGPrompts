@@ -10,6 +10,22 @@
     }
 
     /* Navigation */
+    .nav-wrapper {
+        gap: 0.5rem;
+    }
+
+    /* Reduce nav link spacing on tablet */
+    .nav-link {
+        padding: var(--spacing-xs) 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    /* Optimize button size on tablet */
+    .nav-menu .btn {
+        padding: 0.5rem 0.875rem;
+        font-size: 0.875rem;
+    }
+
     .mobile-menu-toggle {
         display: flex;
     }
