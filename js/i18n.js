@@ -5,11 +5,11 @@
 
 // Language configurations
 const languages = {
-    en: { name: 'EN', nativeName: 'English', flag: '🇬🇧' },
-    ro: { name: 'RO', nativeName: 'Română', flag: '🇷🇴' },
-    es: { name: 'ES', nativeName: 'Español', flag: '🇪🇸' },
-    fr: { name: 'FR', nativeName: 'Français', flag: '🇫🇷' },
-    de: { name: 'DE', nativeName: 'Deutsch', flag: '🇩🇪' }
+    en: { name: 'EN', nativeName: 'English', flag: 'EN' },
+    ro: { name: 'RO', nativeName: 'Română', flag: 'RO' },
+    es: { name: 'ES', nativeName: 'Español', flag: 'ES' },
+    fr: { name: 'FR', nativeName: 'Français', flag: 'FR' },
+    de: { name: 'DE', nativeName: 'Deutsch', flag: 'DE' }
 };
 
 // Initialize i18next
