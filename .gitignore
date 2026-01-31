@@ -1,0 +1,42 @@
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# System files
+*.log
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment variables (if you add them later)
+.env
+.env.local
+.env.production
+
+# Dependencies (if you add npm later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs (if you add a build process later)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Analytics and tracking (keep these private)
+# analytics-config.js
+
+# Backup files
+*.bak
+backup/
+nul

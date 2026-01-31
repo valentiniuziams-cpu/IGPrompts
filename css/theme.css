@@ -1,0 +1,719 @@
+/* ===================================
+   Modern Fixed Design - Soft & Harmonious
+   Perfect Color Harmony Throughout
+   =================================== */
+
+/* Root Variables - Soft & Elegant Palette */
+:root {
+    /* Primary Colors - Navy & Blue Theme */
+    --primary-navy: #0f172a;
+    --primary-blue: #3b82f6;
+    --primary-blue-dark: #2563eb;
+    --primary-blue-light: #60a5fa;
+    --accent-purple: #8b5cf6;
+    --accent-purple-light: #a78bfa;
+
+    /* Background Colors - Softer whites */
+    --bg-white: #fafbfc;
+    --bg-light: #f5f7fa;
+    --bg-gray: #eef2f7;
+    --bg-dark: #0f172a;
+    --bg-navy: #1e293b;
+
+    /* Text Colors - Comfortable reading */
+    --text-dark: #1e293b;
+    --text-gray: #475569;
+    --text-light: #64748b;
+    --text-white: #ffffff;
+
+    /* Border Colors */
+    --border-light: #e2e8f0;
+    --border-gray: #cbd5e1;
+    --border-blue: #3b82f6;
+
+    /* Soft Gradients */
+    --gradient-blue: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+    --gradient-blue-hover: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+    --gradient-purple: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+    --gradient-hero: linear-gradient(135deg, #1e3a5f 0%, #2d5a8f 100%);
+    --gradient-dark: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+
+    /* Status Colors */
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --info: #3b82f6;
+
+    /* Soft Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-blue: 0 8px 20px -5px rgba(59, 130, 246, 0.25);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+
+    /* Smooth Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===================================
+   Smooth Transitions for All Elements
+   =================================== */
+body,
+.navbar,
+.card,
+.prompt-card,
+.category-card,
+.tool-card,
+.benefit,
+.benefit-card,
+.btn,
+input,
+select,
+textarea {
+    transition:
+        background-color var(--transition-base),
+        color var(--transition-base),
+        border-color var(--transition-base),
+        box-shadow var(--transition-base),
+        transform var(--transition-base);
+}
+
+/* ===================================
+   Language Selector - Compact & Clean
+   =================================== */
+
+.language-selector {
+    position: relative;
+}
+
+.language-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-gray);
+    box-shadow: var(--shadow-sm);
+}
+
+.language-toggle:hover {
+    border-color: var(--primary-blue);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.language-toggle .flag-icon {
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.language-toggle .lang-text {
+    font-weight: 600;
+    color: var(--text-dark);
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    letter-spacing: 0.025em;
+}
+
+.language-toggle .arrow-icon {
+    font-size: 0.625rem;
+    transition: transform var(--transition-base);
+    opacity: 0.6;
+}
+
+.language-toggle.active .arrow-icon {
+    transform: rotate(180deg);
+}
+
+/* Modern Language Dropdown */
+.language-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 160px;
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    padding: 6px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px) scale(0.95);
+    transition: all var(--transition-base);
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+}
+
+.language-dropdown.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    color: var(--text-gray);
+}
+
+.language-option:hover {
+    background: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.language-option.active {
+    background: var(--gradient-blue);
+    color: var(--text-white);
+}
+
+.language-option.active .lang-details {
+    color: var(--text-white);
+}
+
+.language-option .flag-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.language-option .lang-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.language-option .lang-native {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.language-option .check-icon {
+    font-size: 0.875rem;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.language-option.active .check-icon {
+    opacity: 1;
+}
+
+/* Nav Controls Container */
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .nav-controls {
+        flex-direction: row;
+        width: 100%;
+        margin-top: 1rem;
+        gap: 12px;
+        justify-content: center;
+        padding: 0.75rem 0;
+        border-top: 1px solid var(--border-light);
+    }
+
+    .language-toggle {
+        flex: 1;
+        justify-content: center;
+        max-width: 200px;
+    }
+
+    .language-dropdown {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        min-width: 100%;
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+
+    .nav-menu.active .nav-controls {
+        display: flex !important;
+    }
+}
+
+/* ===================================
+   Hero & Dark Sections
+   =================================== */
+
+.hero {
+    background: var(--gradient-hero) !important;
+    color: var(--text-white);
+}
+
+.hero .hero-title,
+.hero .hero-subtitle,
+.hero .stat-label,
+.hero .stat-number {
+    color: var(--text-white) !important;
+}
+
+.hero .hero-subtitle {
+    opacity: 0.95;
+}
+
+.footer {
+    background: var(--gradient-dark) !important;
+    color: var(--text-white);
+}
+
+.footer-title,
+.footer-description,
+.footer-heading,
+.footer-links a,
+.footer-bottom p {
+    color: var(--text-white) !important;
+}
+
+.footer-links a {
+    opacity: 0.9;
+    transition: opacity var(--transition-base);
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+/* Trust Section - High Contrast */
+.trust-section {
+    background: var(--gradient-blue) !important;
+}
+
+.trust-section h2,
+.trust-section .section-title {
+    color: var(--text-white) !important;
+    font-weight: 700;
+}
+
+.trust-section p,
+.trust-section .section-subtitle {
+    color: var(--text-white) !important;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+.trust-section div[style*="font-size: 2.5rem"] {
+    color: var(--text-white) !important;
+    font-weight: 700;
+}
+
+.trust-section div[style*="font-size: 0.95rem"] {
+    color: var(--text-white) !important;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+/* ===================================
+   Modern Card Styles
+   =================================== */
+
+.prompt-card,
+.category-card,
+.tool-card,
+.benefit,
+.benefit-card {
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    transition: all var(--transition-base);
+}
+
+.prompt-card:hover,
+.category-card:hover,
+.benefit-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    border-color: var(--primary-blue-light);
+}
+
+/* ===================================
+   Beautiful Gradient Buttons
+   =================================== */
+
+.btn-primary {
+    background: var(--gradient-blue);
+    color: #ffffff !important;
+    border: none;
+    box-shadow: var(--shadow-blue);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all var(--transition-base);
+    letter-spacing: 0.025em;
+}
+
+.btn-primary:hover {
+    background: var(--gradient-blue-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 12px 28px -5px rgba(59, 130, 246, 0.35);
+}
+
+.btn-secondary {
+    background: var(--bg-white);
+    color: var(--primary-blue) !important;
+    border: 2px solid var(--primary-blue);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all var(--transition-base);
+    letter-spacing: 0.025em;
+}
+
+.btn-secondary:hover {
+    background: var(--gradient-blue);
+    color: #ffffff !important;
+    border-color: var(--primary-blue);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Buttons on colored backgrounds - SOFT & READABLE */
+[style*="background: linear-gradient"] .btn-primary,
+.hero .btn-primary,
+.cta-box .btn-primary {
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--primary-blue) !important;
+    box-shadow: 0 4px 14px rgba(255, 255, 255, 0.25);
+    font-weight: 700;
+}
+
+[style*="background: linear-gradient"] .btn-primary:hover,
+.hero .btn-primary:hover,
+.cta-box .btn-primary:hover {
+    background: #ffffff;
+    color: var(--primary-blue-dark) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.35);
+}
+
+[style*="background: linear-gradient"] .btn-secondary,
+.hero .btn-secondary,
+.cta-box .btn-secondary {
+    background: transparent;
+    color: #ffffff !important;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+[style*="background: linear-gradient"] .btn-secondary:hover,
+.hero .btn-secondary:hover,
+.cta-box .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* ===================================
+   Form Elements - Soft & Clean
+   =================================== */
+
+input,
+select,
+textarea,
+.form-select,
+.filter-select {
+    background: var(--bg-white);
+    border: 2px solid var(--border-light);
+    color: var(--text-dark);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+.form-select:hover,
+.filter-select:hover {
+    border-color: var(--primary-blue-light);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.form-select:focus,
+.filter-select:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+select option,
+.form-select option,
+.filter-select option {
+    padding: 0.75rem;
+    background: var(--bg-white);
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+select option:checked {
+    background: var(--bg-light);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--text-light);
+    opacity: 1;
+}
+
+/* ===================================
+   Navbar - Soft Background
+   =================================== */
+
+.navbar {
+    background: rgba(250, 251, 252, 0.95);
+    border-bottom: 1px solid var(--border-light);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: var(--shadow-sm);
+}
+
+.navbar.scrolled {
+    box-shadow: var(--shadow-md);
+}
+
+.nav-link {
+    color: var(--text-gray);
+    font-weight: 500;
+    transition: color var(--transition-base);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-blue);
+}
+
+/* ===================================
+   Soft Background Colors
+   =================================== */
+
+body {
+    background: var(--bg-white);
+    color: var(--text-dark);
+}
+
+.section-title {
+    color: var(--text-dark);
+}
+
+.section-subtitle {
+    color: var(--text-gray);
+}
+
+.how-it-works,
+.categories,
+.benefits-section {
+    background: var(--bg-light);
+}
+
+.benefits,
+.cta-section {
+    background: var(--bg-white);
+}
+
+/* ===================================
+   Typography - Comfortable Reading
+   =================================== */
+
+label,
+.form-label {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-dark);
+}
+
+p {
+    color: var(--text-gray);
+}
+
+a:not(.btn) {
+    color: var(--primary-blue);
+    transition: color var(--transition-base);
+}
+
+a:not(.btn):hover {
+    color: var(--primary-blue-light);
+}
+
+/* ===================================
+   Soft Scrollbar
+   =================================== */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-gray);
+    border-radius: var(--radius-full);
+    border: 2px solid var(--bg-light);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-light);
+}
+
+::selection {
+    background: var(--primary-blue-light);
+    color: var(--text-white);
+}
+
+/* ===================================
+   Additional Elements
+   =================================== */
+
+.loading {
+    color: var(--text-gray);
+}
+
+.empty-state,
+.no-results {
+    color: var(--text-light);
+}
+
+.copy-btn,
+.action-btn {
+    background: var(--bg-light);
+    color: var(--text-dark);
+    border: 1px solid var(--border-light);
+    transition: all var(--transition-base);
+}
+
+.copy-btn:hover,
+.action-btn:hover {
+    background: var(--gradient-blue);
+    color: #ffffff;
+    border-color: var(--primary-blue);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.tag,
+.badge,
+.category-count,
+.prompt-count {
+    background: var(--bg-light);
+    color: var(--text-gray);
+    border: 1px solid var(--border-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.info-box,
+.browse-info-box {
+    background: var(--bg-light) !important;
+    color: var(--text-dark) !important;
+    border-radius: var(--radius-lg) !important;
+    padding: 1rem !important;
+    border-left: 4px solid var(--primary-blue) !important;
+}
+
+.info-box *,
+.browse-info-box *,
+.info-box p,
+.info-box strong,
+.info-box span,
+.info-text,
+.info-text * {
+    color: var(--text-dark) !important;
+}
+
+.info-box strong {
+    font-weight: 700;
+    color: var(--primary-blue) !important;
+}
+
+.info-box p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.cta-box {
+    background: var(--gradient-hero);
+    color: var(--text-white);
+    border-radius: var(--radius-xl);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cta-title {
+    color: var(--text-white) !important;
+    font-weight: 700;
+}
+
+.cta-description {
+    color: var(--text-white) !important;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+[style*="background: linear-gradient"] h1,
+[style*="background: linear-gradient"] h2,
+[style*="background: linear-gradient"] h3,
+[style*="background: linear-gradient"] p,
+[style*="background: linear-gradient"] div {
+    color: var(--text-white) !important;
+}
+
+.stat-number {
+    color: var(--text-white) !important;
+    font-weight: 700;
+}
+
+.stat-label {
+    color: var(--text-white) !important;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+
+@media print {
+    .navbar,
+    .language-toggle,
+    .nav-controls {
+        display: none;
+    }
+}

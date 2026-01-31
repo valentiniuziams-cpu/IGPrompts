@@ -1,0 +1,872 @@
+{
+  "en": {
+    "nav": {
+      "findPrompts": "Find Prompts",
+      "browseAll": "Browse All",
+      "blog": "Blog",
+      "about": "About",
+      "getPromptsFree": "Get Prompts Free"
+    },
+    "hero": {
+      "title": "350 Ready-to-Use AI Prompts for Instagram Content Creators",
+      "subtitle": "Expertly-crafted ChatGPT & Claude prompts for captions, reels, hashtags, and more. Just copy, paste, and create amazing content. No more blank screen syndrome.",
+      "ctaPrimary": "Find Your Perfect Prompt",
+      "ctaSecondary": "Browse All 350 Prompts"
+    },
+    "stats": {
+      "prompts": "AI Prompts",
+      "categories": "Categories",
+      "free": "100% Free"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Get started with AI-powered Instagram content in 3 simple steps",
+      "step1": "Browse & Filter",
+      "step1Desc": "Explore 350 prompts organized by category, niche, and tone.",
+      "step2": "Copy Prompt",
+      "step2Desc": "Click to copy any prompt instantly to your clipboard.",
+      "step3": "Generate Content",
+      "step3Desc": "Paste into ChatGPT or Claude and get amazing content in seconds."
+    },
+    "categories": {
+      "title": "Browse by Category",
+      "subtitle": "Find the perfect prompts for any type of Instagram content"
+    },
+    "generator": {
+      "title": "Find Your Perfect AI Prompt",
+      "subtitle": "Filter our expertly-crafted prompts by category, niche, and tone",
+      "freeAccess": "100% Free Access",
+      "freeAccessDesc": "Browse and filter all 350 prompts with no limits!",
+      "category": "Content Category",
+      "niche": "Your Niche",
+      "tone": "Tone & Style",
+      "selectCategory": "Select a category...",
+      "selectNiche": "Select your niche...",
+      "selectTone": "Select tone...",
+      "showMatching": "Show Matching Prompts",
+      "tip": "Tip:",
+      "tipText": "The more specific your selections, the more targeted your prompts will be. Try different combinations to explore our full library!",
+      "emptyTitle": "Ready to Find Your Prompts?",
+      "emptyDesc": "Select your preferences on the left and click \"Show Matching Prompts\" to browse our expertly-crafted library.",
+      "resultsTitle": "Your Matched Prompts",
+      "showMore": "Show More"
+    },
+    "browse": {
+      "title": "Browse All AI Prompts",
+      "subtitle": "Explore 350 professionally crafted AI prompts for Instagram content creation",
+      "infoBox": "✨ All prompts work with ChatGPT, Claude & Gemini",
+      "infoBoxDesc": "Simply copy and paste into your preferred AI tool",
+      "showing": "Showing",
+      "prompts": "prompts",
+      "allCategories": "All Categories",
+      "allNiches": "All Niches",
+      "allTones": "All Tones & Styles",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "worksWith": "Works with:",
+      "noResults": "No prompts found",
+      "noResultsDesc": "Try adjusting your filters to see more results.",
+      "loading": "Loading prompts...",
+      "howToUseTitle": "How to Use These Prompts",
+      "howToUseDesc": "Simply browse, filter by category, niche, or tone, copy the prompt you like, and paste it into ChatGPT, Claude, or any AI tool. Customize the output to match your unique voice and brand.",
+      "learnMore": "Learn More"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Learn how to use AI for Instagram content creation",
+      "readMore": "Read More",
+      "minRead": "min read"
+    },
+    "benefits": {
+      "title": "Why Use AI Prompts for Instagram?",
+      "saveTime": "Save Time",
+      "saveTimeDesc": "Stop spending hours brainstorming content ideas. Get instant inspiration with proven prompts.",
+      "betterResults": "Better Results",
+      "betterResultsDesc": "Well-crafted prompts produce higher quality AI-generated content that resonates with your audience.",
+      "learnPrompt": "Learn Prompt Engineering",
+      "learnPromptDesc": "See how professional prompts are structured and improve your own AI interaction skills.",
+      "stayConsistent": "Stay Consistent",
+      "stayConsistentDesc": "Never run out of content ideas. Keep your posting schedule full with diverse, engaging content."
+    },
+    "whyChoose": {
+      "title": "Why Creators Choose Our Prompts",
+      "subtitle": "Everything you need to create better Instagram content with AI",
+      "saveHours": "Save Hours of Time",
+      "saveHoursDesc": "Stop staring at blank screens. Get instant caption ideas, reel scripts, and hooks in seconds. Spend less time brainstorming, more time creating.",
+      "tailored": "Tailored to Your Niche",
+      "tailoredDesc": "Filter by 10 niches and 6 tone styles. Whether you're in fitness, fashion, or food, find prompts that match your brand voice perfectly.",
+      "expertCrafted": "Expertly Crafted",
+      "expertCraftedDesc": "Every prompt is hand-crafted by content strategists and tested with real AI tools. No generic templates—just prompts that actually work.",
+      "freeAccess": "100% Free Access",
+      "freeAccessDesc": "All 350 prompts are completely free. No hidden fees, no subscriptions. Just copy, paste into ChatGPT or Claude, and create.",
+      "boostEngagement": "Boost Engagement",
+      "boostEngagementDesc": "Create content that sparks conversations. Our engagement prompts help you ask better questions and get more comments from your audience.",
+      "freshContent": "Always Fresh Content",
+      "freshContentDesc": "Never run out of ideas. With 350 prompts across 10 categories, you'll have endless inspiration for captions, reels, stories, and more."
+    },
+    "trust": {
+      "title": "Trusted by Instagram Creators Worldwide",
+      "subtitle": "Every prompt in our library has been carefully crafted and tested by content marketing experts. No generic templates - just proven prompts that deliver results.",
+      "handCrafted": "Hand-Crafted Prompts",
+      "categories": "Content Categories",
+      "freeTested": "Free & Tested",
+      "platforms": "AI Platforms Supported"
+    },
+    "cta": {
+      "title": "Ready to Create Better Instagram Content?",
+      "description": "Browse 50+ expertly-crafted AI prompts and never run out of content ideas again.",
+      "button": "Find Your Perfect Prompt Free"
+    },
+    "footer": {
+      "title": "AI Prompt Library",
+      "description": "350 free AI prompts for Instagram creators. Works with ChatGPT, Claude, and Gemini.",
+      "quickLinks": "Quick Links",
+      "categories": "Explore Categories",
+      "browseByCategory": "Browse by category...",
+      "viewAll": "View All Categories →",
+      "copyright": "© 2026 AI Prompt Library for Instagram. All rights reserved.",
+      "findPrompts": "Find Prompts",
+      "browseAll": "Browse All Prompts"
+    },
+    "theme": {
+      "light": "Switch to Dark Mode",
+      "dark": "Switch to Light Mode"
+    },
+    "language": {
+      "select": "Language",
+      "en": "English",
+      "ro": "Romanian",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German"
+    },
+    "categories": {
+      "captionIdeas": "Caption Ideas",
+      "reelScripts": "Reel Scripts",
+      "hashtagResearch": "Hashtag Research",
+      "bioGenerator": "Bio Generator",
+      "hookIdeas": "Hook Ideas",
+      "storyIdeas": "Story Ideas",
+      "carouselContent": "Carousel Content",
+      "engagementPrompts": "Engagement Prompts",
+      "contentCalendar": "Content Calendar",
+      "trendAnalysis": "Trend Analysis"
+    },
+    "niches": {
+      "fashion": "Fashion & Style",
+      "fitness": "Fitness & Health",
+      "food": "Food & Cooking",
+      "travel": "Travel & Adventure",
+      "business": "Business & Entrepreneurship",
+      "lifestyle": "Lifestyle & Personal",
+      "beauty": "Beauty & Skincare",
+      "tech": "Tech & Gadgets",
+      "photography": "Photography & Art",
+      "parenting": "Parenting & Family"
+    },
+    "tones": {
+      "casual": "Casual & Friendly",
+      "professional": "Professional",
+      "funny": "Funny & Humorous",
+      "motivational": "Motivational & Inspirational",
+      "educational": "Educational",
+      "storytelling": "Storytelling"
+    }
+  },
+  "ro": {
+    "nav": {
+      "findPrompts": "Găsește Prompturi",
+      "browseAll": "Explorează Tot",
+      "blog": "Blog",
+      "about": "Despre",
+      "getPromptsFree": "Prompturi Gratuite"
+    },
+    "hero": {
+      "title": "350 de Prompturi AI Gata de Utilizat pentru Creatori de Conținut Instagram",
+      "subtitle": "Prompturi ChatGPT & Claude create profesional pentru captions, reels, hashtag-uri și multe altele. Doar copiază, lipește și creează conținut grozav. Fără sindromul ecranului gol.",
+      "ctaPrimary": "Găsește Promptul Perfect",
+      "ctaSecondary": "Explorează Toate cele 350 Prompturi"
+    },
+    "stats": {
+      "prompts": "Prompturi AI",
+      "categories": "Categorii",
+      "free": "100% Gratuit"
+    },
+    "howItWorks": {
+      "title": "Cum Funcționează",
+      "subtitle": "Începe cu conținut Instagram generat de AI în 3 pași simpli",
+      "step1": "Navighează & Filtrează",
+      "step1Desc": "Explorează 350 de prompturi organizate pe categorii, nișe și tonuri.",
+      "step2": "Copiază Promptul",
+      "step2Desc": "Click pentru a copia orice prompt instant în clipboard.",
+      "step3": "Generează Conținut",
+      "step3Desc": "Lipește în ChatGPT sau Claude și primește conținut grozav în secunde."
+    },
+    "categories": {
+      "title": "Explorează pe Categorii",
+      "subtitle": "Găsește prompturile perfecte pentru orice tip de conținut Instagram"
+    },
+    "generator": {
+      "title": "Găsește Promptul Perfect",
+      "subtitle": "Filtrează prompturile noastre expertizate după categorie, nișă și ton",
+      "freeAccess": "Acces 100% Gratuit",
+      "freeAccessDesc": "Explorează și filtrează toate cele 350 de prompturi fără limite!",
+      "category": "Categorie Conținut",
+      "niche": "Nișa Ta",
+      "tone": "Ton & Stil",
+      "selectCategory": "Selectează o categorie...",
+      "selectNiche": "Selectează nișa ta...",
+      "selectTone": "Selectează tonul...",
+      "showMatching": "Arată Prompturi Potrivite",
+      "tip": "Sfat:",
+      "tipText": "Cu cât selecțiile tale sunt mai specifice, cu atât prompturile vor fi mai targetate. Încearcă combinații diferite pentru a explora biblioteca noastră completă!",
+      "emptyTitle": "Gata să Găsești Prompturile?",
+      "emptyDesc": "Selectează preferințele tale în stânga și click pe \"Arată Prompturi Potrivite\" pentru a naviga biblioteca noastră.",
+      "resultsTitle": "Prompturile Tale Potrivite",
+      "showMore": "Arată Mai Mult"
+    },
+    "browse": {
+      "title": "Explorează Toate Prompturile AI",
+      "subtitle": "Descoperă 350 de prompturi AI create profesional pentru conținut Instagram",
+      "infoBox": "✨ Toate prompturile funcționează cu ChatGPT, Claude & Gemini",
+      "infoBoxDesc": "Pur și simplu copiază și lipește în instrumentul tău AI preferat",
+      "showing": "Afișare",
+      "prompts": "prompturi",
+      "allCategories": "Toate Categoriile",
+      "allNiches": "Toate Nișele",
+      "allTones": "Toate Tonurile & Stilurile",
+      "copy": "Copiază",
+      "copied": "Copiat!",
+      "worksWith": "Funcționează cu:",
+      "noResults": "Nu s-au găsit prompturi",
+      "noResultsDesc": "Încearcă să ajustezi filtrele pentru a vedea mai multe rezultate.",
+      "loading": "Se încarcă prompturile...",
+      "howToUseTitle": "Cum să Folosești Aceste Prompturi",
+      "howToUseDesc": "Pur și simplu navighează, filtrează după categorie, nișă sau ton, copiază promptul pe care îl preferi și lipește-l în ChatGPT, Claude sau orice instrument AI. Personalizează rezultatul pentru a se potrivi vocii și brand-ului tău unic.",
+      "learnMore": "Află Mai Mult"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Învață cum să folosești AI pentru crearea de conținut Instagram",
+      "readMore": "Citește Mai Mult",
+      "minRead": "min citire"
+    },
+    "benefits": {
+      "title": "De Ce Să Folosești Prompturi AI pentru Instagram?",
+      "saveTime": "Economisește Timp",
+      "saveTimeDesc": "Nu mai petrece ore întregi gândindu-te la idei de conținut. Obține inspirație instantanee cu prompturi dovedite.",
+      "betterResults": "Rezultate Mai Bune",
+      "betterResultsDesc": "Prompturile bine create produc conținut AI de calitate superioară care rezonează cu audiența ta.",
+      "learnPrompt": "Învață Prompt Engineering",
+      "learnPromptDesc": "Vezi cum sunt structurate prompturile profesionale și îmbunătățește-ți propriile abilități de interacțiune cu AI.",
+      "stayConsistent": "Rămâi Consecvent",
+      "stayConsistentDesc": "Nu rămâi niciodată fără idei de conținut. Păstrează-ți programul de postări plin cu conținut divers și captivant."
+    },
+    "whyChoose": {
+      "title": "De Ce Creatorii Aleg Prompturile Noastre",
+      "subtitle": "Tot ce ai nevoie pentru a crea conținut Instagram mai bun cu AI",
+      "saveHours": "Economisește Ore de Timp",
+      "saveHoursDesc": "Nu mai privi ecrane goale. Obține idei instant pentru captions, reel scripts și hooks în câteva secunde. Petreci mai puțin timp gândindu-te, mai mult timp creând.",
+      "tailored": "Adaptat Nișei Tale",
+      "tailoredDesc": "Filtrează după 10 nișe și 6 stiluri de ton. Fie că ești în fitness, fashion sau food, găsește prompturi care se potrivesc perfect vocii brand-ului tău.",
+      "expertCrafted": "Create Profesional",
+      "expertCraftedDesc": "Fiecare prompt este creat manual de strategii de conținut și testat cu instrumente AI reale. Fără șabloane generice—doar prompturi care funcționează cu adevărat.",
+      "freeAccess": "Acces 100% Gratuit",
+      "freeAccessDesc": "Toate cele 350 de prompturi sunt complet gratuite. Fără taxe ascunse, fără abonamente. Doar copiază, lipește în ChatGPT sau Claude și creează.",
+      "boostEngagement": "Crește Engagement-ul",
+      "boostEngagementDesc": "Creează conținut care declanșează conversații. Prompturile noastre de engagement te ajută să pui întrebări mai bune și să obții mai multe comentarii de la audiența ta.",
+      "freshContent": "Conținut Mereu Proaspăt",
+      "freshContentDesc": "Nu rămâi niciodată fără idei. Cu 350 de prompturi pe 10 categorii, vei avea inspirație nesfârșită pentru captions, reels, stories și multe altele."
+    },
+    "trust": {
+      "title": "De Încredere pentru Creatori Instagram din Întreaga Lume",
+      "subtitle": "Fiecare prompt din biblioteca noastră a fost creat și testat cu atenție de experți în marketing de conținut. Fără șabloane generice - doar prompturi dovedite care oferă rezultate.",
+      "handCrafted": "Prompturi Create Manual",
+      "categories": "Categorii de Conținut",
+      "freeTested": "Gratuit & Testat",
+      "platforms": "Platforme AI Suportate"
+    },
+    "cta": {
+      "title": "Gata să Creezi Conținut Instagram Mai Bun?",
+      "description": "Explorează 50+ prompturi AI create profesional și nu rămâne niciodată fără idei de conținut.",
+      "button": "Găsește Promptul Perfect Gratuit"
+    },
+    "footer": {
+      "title": "Librărie Prompturi AI",
+      "description": "350 de prompturi AI gratuite pentru creatori Instagram. Funcționează cu ChatGPT, Claude și Gemini.",
+      "quickLinks": "Link-uri Rapide",
+      "categories": "Explorează Categorii",
+      "browseByCategory": "Navighează pe categorii...",
+      "viewAll": "Vezi Toate Categoriile →",
+      "copyright": "© 2026 Librărie Prompturi AI pentru Instagram. Toate drepturile rezervate.",
+      "findPrompts": "Găsește Prompturi",
+      "browseAll": "Explorează Toate Prompturile"
+    },
+    "theme": {
+      "light": "Comută la Modul Întunecat",
+      "dark": "Comută la Modul Luminos"
+    },
+    "language": {
+      "select": "Limbă",
+      "en": "Engleză",
+      "ro": "Română",
+      "es": "Spaniolă",
+      "fr": "Franceză",
+      "de": "Germană"
+    },
+    "categories": {
+      "captionIdeas": "Idei de Captions",
+      "reelScripts": "Scripturi Reels",
+      "hashtagResearch": "Cercetare Hashtag-uri",
+      "bioGenerator": "Generator Bio",
+      "hookIdeas": "Idei de Hook-uri",
+      "storyIdeas": "Idei de Stories",
+      "carouselContent": "Conținut Carousel",
+      "engagementPrompts": "Prompturi Engagement",
+      "contentCalendar": "Calendar Conținut",
+      "trendAnalysis": "Analiză Trenduri"
+    },
+    "niches": {
+      "fashion": "Fashion & Stil",
+      "fitness": "Fitness & Sănătate",
+      "food": "Food & Gătit",
+      "travel": "Călătorii & Aventură",
+      "business": "Business & Antreprenoriat",
+      "lifestyle": "Lifestyle & Personal",
+      "beauty": "Beauty & Skincare",
+      "tech": "Tech & Gadgets",
+      "photography": "Fotografie & Artă",
+      "parenting": "Parenting & Familie"
+    },
+    "tones": {
+      "casual": "Casual & Prietenos",
+      "professional": "Profesional",
+      "funny": "Amuzant & Umoristic",
+      "motivational": "Motivațional & Inspirațional",
+      "educational": "Educațional",
+      "storytelling": "Storytelling"
+    }
+  },
+  "es": {
+    "nav": {
+      "findPrompts": "Encontrar Prompts",
+      "browseAll": "Explorar Todo",
+      "blog": "Blog",
+      "about": "Acerca de",
+      "getPromptsFree": "Obtener Prompts Gratis"
+    },
+    "hero": {
+      "title": "350 Prompts AI Listos para Usar para Creadores de Contenido de Instagram",
+      "subtitle": "Prompts de ChatGPT & Claude creados por expertos para captions, reels, hashtags y más. Solo copia, pega y crea contenido increíble. No más síndrome de pantalla en blanco.",
+      "ctaPrimary": "Encuentra tu Prompt Perfecto",
+      "ctaSecondary": "Explorar Todos los 350 Prompts"
+    },
+    "stats": {
+      "prompts": "Prompts AI",
+      "categories": "Categorías",
+      "free": "100% Gratis"
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Comienza con contenido de Instagram impulsado por AI en 3 simples pasos",
+      "step1": "Explorar y Filtrar",
+      "step1Desc": "Explora 350 prompts organizados por categoría, nicho y tono.",
+      "step2": "Copiar Prompt",
+      "step2Desc": "Haz clic para copiar cualquier prompt instantáneamente al portapapeles.",
+      "step3": "Generar Contenido",
+      "step3Desc": "Pega en ChatGPT o Claude y obtén contenido increíble en segundos."
+    },
+    "categories": {
+      "title": "Explorar por Categoría",
+      "subtitle": "Encuentra los prompts perfectos para cualquier tipo de contenido de Instagram"
+    },
+    "generator": {
+      "title": "Encuentra tu Prompt AI Perfecto",
+      "subtitle": "Filtra nuestros prompts expertamente elaborados por categoría, nicho y tono",
+      "freeAccess": "Acceso 100% Gratis",
+      "freeAccessDesc": "¡Explora y filtra todos los 350 prompts sin límites!",
+      "category": "Categoría de Contenido",
+      "niche": "Tu Nicho",
+      "tone": "Tono y Estilo",
+      "selectCategory": "Selecciona una categoría...",
+      "selectNiche": "Selecciona tu nicho...",
+      "selectTone": "Selecciona tono...",
+      "showMatching": "Mostrar Prompts Coincidentes",
+      "tip": "Consejo:",
+      "tipText": "Cuanto más específicas sean tus selecciones, más específicos serán tus prompts. ¡Prueba diferentes combinaciones para explorar nuestra biblioteca completa!",
+      "emptyTitle": "¿Listo para Encontrar tus Prompts?",
+      "emptyDesc": "Selecciona tus preferencias a la izquierda y haz clic en \"Mostrar Prompts Coincidentes\" para explorar nuestra biblioteca.",
+      "resultsTitle": "Tus Prompts Coincidentes",
+      "showMore": "Mostrar Más"
+    },
+    "browse": {
+      "title": "Explorar Todos los Prompts AI",
+      "subtitle": "Explora 350 prompts AI creados profesionalmente para creación de contenido de Instagram",
+      "infoBox": "✨ Todos los prompts funcionan con ChatGPT, Claude y Gemini",
+      "infoBoxDesc": "Simplemente copia y pega en tu herramienta AI preferida",
+      "showing": "Mostrando",
+      "prompts": "prompts",
+      "allCategories": "Todas las Categorías",
+      "allNiches": "Todos los Nichos",
+      "allTones": "Todos los Tonos y Estilos",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "worksWith": "Funciona con:",
+      "noResults": "No se encontraron prompts",
+      "noResultsDesc": "Intenta ajustar tus filtros para ver más resultados.",
+      "loading": "Cargando prompts...",
+      "howToUseTitle": "Cómo Usar Estos Prompts",
+      "howToUseDesc": "Simplemente explora, filtra por categoría, nicho o tono, copia el prompt que te gusta y pégalo en ChatGPT, Claude o cualquier herramienta AI. Personaliza el resultado para que coincida con tu voz y marca única.",
+      "learnMore": "Saber Más"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Aprende cómo usar AI para creación de contenido de Instagram",
+      "readMore": "Leer Más",
+      "minRead": "min lectura"
+    },
+    "benefits": {
+      "title": "¿Por Qué Usar Prompts AI para Instagram?",
+      "saveTime": "Ahorra Tiempo",
+      "saveTimeDesc": "Deja de pasar horas pensando en ideas de contenido. Obtén inspiración instantánea con prompts probados.",
+      "betterResults": "Mejores Resultados",
+      "betterResultsDesc": "Los prompts bien elaborados producen contenido generado por IA de mayor calidad que resuena con tu audiencia.",
+      "learnPrompt": "Aprende Ingeniería de Prompts",
+      "learnPromptDesc": "Descubre cómo se estructuran los prompts profesionales y mejora tus propias habilidades de interacción con IA.",
+      "stayConsistent": "Mantén la Consistencia",
+      "stayConsistentDesc": "Nunca te quedes sin ideas de contenido. Mantén tu calendario de publicaciones lleno con contenido diverso y atractivo."
+    },
+    "whyChoose": {
+      "title": "Por Qué los Creadores Eligen Nuestros Prompts",
+      "subtitle": "Todo lo que necesitas para crear mejor contenido de Instagram con IA",
+      "saveHours": "Ahorra Horas de Tiempo",
+      "saveHoursDesc": "Deja de mirar pantallas en blanco. Obtén ideas instantáneas para captions, guiones de reels y ganchos en segundos. Pasa menos tiempo pensando, más tiempo creando.",
+      "tailored": "Adaptado a Tu Nicho",
+      "tailoredDesc": "Filtra por 10 nichos y 6 estilos de tono. Ya sea fitness, moda o comida, encuentra prompts que se ajusten perfectamente a la voz de tu marca.",
+      "expertCrafted": "Creado por Expertos",
+      "expertCraftedDesc": "Cada prompt está elaborado a mano por estrategas de contenido y probado con herramientas IA reales. Sin plantillas genéricas, solo prompts que realmente funcionan.",
+      "freeAccess": "Acceso 100% Gratis",
+      "freeAccessDesc": "Los 350 prompts son completamente gratuitos. Sin tarifas ocultas, sin suscripciones. Solo copia, pega en ChatGPT o Claude, y crea.",
+      "boostEngagement": "Aumenta el Engagement",
+      "boostEngagementDesc": "Crea contenido que genera conversaciones. Nuestros prompts de engagement te ayudan a hacer mejores preguntas y obtener más comentarios de tu audiencia.",
+      "freshContent": "Contenido Siempre Fresco",
+      "freshContentDesc": "Nunca te quedes sin ideas. Con 350 prompts en 10 categorías, tendrás inspiración infinita para captions, reels, historias y más."
+    },
+    "trust": {
+      "title": "Confiado por Creadores de Instagram en Todo el Mundo",
+      "subtitle": "Cada prompt en nuestra biblioteca ha sido cuidadosamente elaborado y probado por expertos en marketing de contenido. Sin plantillas genéricas, solo prompts probados que entregan resultados.",
+      "handCrafted": "Prompts Elaborados a Mano",
+      "categories": "Categorías de Contenido",
+      "freeTested": "Gratis y Probado",
+      "platforms": "Plataformas IA Compatibles"
+    },
+    "cta": {
+      "title": "¿Listo para Crear Mejor Contenido de Instagram?",
+      "description": "Explora más de 50 prompts IA creados por expertos y nunca te quedes sin ideas de contenido.",
+      "button": "Encuentra Tu Prompt Perfecto Gratis"
+    },
+    "footer": {
+      "title": "Biblioteca de Prompts AI",
+      "description": "350 prompts AI gratis para creadores de Instagram. Funciona con ChatGPT, Claude y Gemini.",
+      "quickLinks": "Enlaces Rápidos",
+      "categories": "Explorar Categorías",
+      "browseByCategory": "Explorar por categoría...",
+      "viewAll": "Ver Todas las Categorías →",
+      "copyright": "© 2026 Biblioteca de Prompts AI para Instagram. Todos los derechos reservados.",
+      "findPrompts": "Encontrar Prompts",
+      "browseAll": "Explorar Todos los Prompts"
+    },
+    "theme": {
+      "light": "Cambiar a Modo Oscuro",
+      "dark": "Cambiar a Modo Claro"
+    },
+    "language": {
+      "select": "Idioma",
+      "en": "Inglés",
+      "ro": "Rumano",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán"
+    },
+    "categories": {
+      "captionIdeas": "Ideas de Captions",
+      "reelScripts": "Guiones de Reels",
+      "hashtagResearch": "Investigación de Hashtags",
+      "bioGenerator": "Generador de Bio",
+      "hookIdeas": "Ideas de Ganchos",
+      "storyIdeas": "Ideas de Historias",
+      "carouselContent": "Contenido Carrusel",
+      "engagementPrompts": "Prompts de Engagement",
+      "contentCalendar": "Calendario de Contenido",
+      "trendAnalysis": "Análisis de Tendencias"
+    },
+    "niches": {
+      "fashion": "Moda & Estilo",
+      "fitness": "Fitness & Salud",
+      "food": "Comida & Cocina",
+      "travel": "Viajes & Aventura",
+      "business": "Negocios & Emprendimiento",
+      "lifestyle": "Estilo de Vida & Personal",
+      "beauty": "Belleza & Cuidado de la Piel",
+      "tech": "Tecnología & Gadgets",
+      "photography": "Fotografía & Arte",
+      "parenting": "Crianza & Familia"
+    },
+    "tones": {
+      "casual": "Casual & Amigable",
+      "professional": "Profesional",
+      "funny": "Divertido & Humorístico",
+      "motivational": "Motivacional & Inspirador",
+      "educational": "Educativo",
+      "storytelling": "Narrativa"
+    }
+  },
+  "fr": {
+    "nav": {
+      "findPrompts": "Trouver des Prompts",
+      "browseAll": "Tout Parcourir",
+      "blog": "Blog",
+      "about": "À propos",
+      "getPromptsFree": "Obtenir des Prompts Gratuits"
+    },
+    "hero": {
+      "title": "350 Prompts AI Prêts à l'Emploi pour les Créateurs de Contenu Instagram",
+      "subtitle": "Prompts ChatGPT & Claude créés par des experts pour légendes, reels, hashtags et plus. Copiez, collez et créez du contenu incroyable. Fini le syndrome de l'écran blanc.",
+      "ctaPrimary": "Trouvez votre Prompt Parfait",
+      "ctaSecondary": "Parcourir Tous les 350 Prompts"
+    },
+    "stats": {
+      "prompts": "Prompts AI",
+      "categories": "Catégories",
+      "free": "100% Gratuit"
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "subtitle": "Commencez avec du contenu Instagram alimenté par l'IA en 3 étapes simples",
+      "step1": "Parcourir et Filtrer",
+      "step1Desc": "Explorez 350 prompts organisés par catégorie, niche et ton.",
+      "step2": "Copier le Prompt",
+      "step2Desc": "Cliquez pour copier n'importe quel prompt instantanément dans le presse-papiers.",
+      "step3": "Générer du Contenu",
+      "step3Desc": "Collez dans ChatGPT ou Claude et obtenez un contenu incroyable en quelques secondes."
+    },
+    "categories": {
+      "title": "Parcourir par Catégorie",
+      "subtitle": "Trouvez les prompts parfaits pour tout type de contenu Instagram"
+    },
+    "generator": {
+      "title": "Trouvez votre Prompt AI Parfait",
+      "subtitle": "Filtrez nos prompts expertement conçus par catégorie, niche et ton",
+      "freeAccess": "Accès 100% Gratuit",
+      "freeAccessDesc": "Parcourez et filtrez tous les 350 prompts sans limites!",
+      "category": "Catégorie de Contenu",
+      "niche": "Votre Niche",
+      "tone": "Ton et Style",
+      "selectCategory": "Sélectionnez une catégorie...",
+      "selectNiche": "Sélectionnez votre niche...",
+      "selectTone": "Sélectionnez le ton...",
+      "showMatching": "Afficher les Prompts Correspondants",
+      "tip": "Astuce:",
+      "tipText": "Plus vos sélections sont spécifiques, plus vos prompts seront ciblés. Essayez différentes combinaisons pour explorer notre bibliothèque complète!",
+      "emptyTitle": "Prêt à Trouver vos Prompts?",
+      "emptyDesc": "Sélectionnez vos préférences à gauche et cliquez sur \"Afficher les Prompts Correspondants\" pour parcourir notre bibliothèque.",
+      "resultsTitle": "Vos Prompts Correspondants",
+      "showMore": "Afficher Plus"
+    },
+    "browse": {
+      "title": "Parcourir Tous les Prompts AI",
+      "subtitle": "Explorez 350 prompts AI créés professionnellement pour la création de contenu Instagram",
+      "infoBox": "✨ Tous les prompts fonctionnent avec ChatGPT, Claude et Gemini",
+      "infoBoxDesc": "Copiez et collez simplement dans votre outil AI préféré",
+      "showing": "Affichage",
+      "prompts": "prompts",
+      "allCategories": "Toutes les Catégories",
+      "allNiches": "Toutes les Niches",
+      "allTones": "Tous les Tons et Styles",
+      "copy": "Copier",
+      "copied": "Copié!",
+      "worksWith": "Fonctionne avec:",
+      "noResults": "Aucun prompt trouvé",
+      "noResultsDesc": "Essayez d'ajuster vos filtres pour voir plus de résultats.",
+      "loading": "Chargement des prompts...",
+      "howToUseTitle": "Comment Utiliser Ces Prompts",
+      "howToUseDesc": "Parcourez simplement, filtrez par catégorie, niche ou ton, copiez le prompt que vous aimez et collez-le dans ChatGPT, Claude ou n'importe quel outil AI. Personnalisez le résultat pour qu'il corresponde à votre voix et marque uniques.",
+      "learnMore": "En Savoir Plus"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Apprenez à utiliser l'IA pour la création de contenu Instagram",
+      "readMore": "Lire Plus",
+      "minRead": "min lecture"
+    },
+    "benefits": {
+      "title": "Pourquoi Utiliser des Prompts IA pour Instagram ?",
+      "saveTime": "Gagnez du Temps",
+      "saveTimeDesc": "Arrêtez de passer des heures à réfléchir à des idées de contenu. Obtenez une inspiration instantanée avec des prompts éprouvés.",
+      "betterResults": "Meilleurs Résultats",
+      "betterResultsDesc": "Des prompts bien conçus produisent du contenu généré par l'IA de meilleure qualité qui résonne avec votre audience.",
+      "learnPrompt": "Apprenez l'Ingénierie de Prompts",
+      "learnPromptDesc": "Découvrez comment les prompts professionnels sont structurés et améliorez vos propres compétences d'interaction avec l'IA.",
+      "stayConsistent": "Restez Cohérent",
+      "stayConsistentDesc": "Ne manquez jamais d'idées de contenu. Gardez votre calendrier de publication rempli avec du contenu diversifié et engageant."
+    },
+    "whyChoose": {
+      "title": "Pourquoi les Créateurs Choisissent Nos Prompts",
+      "subtitle": "Tout ce dont vous avez besoin pour créer un meilleur contenu Instagram avec l'IA",
+      "saveHours": "Économisez des Heures",
+      "saveHoursDesc": "Arrêtez de fixer des écrans vides. Obtenez instantanément des idées de légendes, de scripts de reels et d'accroches en quelques secondes. Passez moins de temps à réfléchir, plus de temps à créer.",
+      "tailored": "Adapté à Votre Niche",
+      "tailoredDesc": "Filtrez par 10 niches et 6 styles de ton. Que vous soyez dans le fitness, la mode ou la cuisine, trouvez des prompts qui correspondent parfaitement à la voix de votre marque.",
+      "expertCrafted": "Créé par des Experts",
+      "expertCraftedDesc": "Chaque prompt est créé à la main par des stratèges de contenu et testé avec de vrais outils IA. Pas de modèles génériques, juste des prompts qui fonctionnent vraiment.",
+      "freeAccess": "Accès 100% Gratuit",
+      "freeAccessDesc": "Tous les 350 prompts sont entièrement gratuits. Pas de frais cachés, pas d'abonnements. Copiez simplement, collez dans ChatGPT ou Claude, et créez.",
+      "boostEngagement": "Augmentez l'Engagement",
+      "boostEngagementDesc": "Créez du contenu qui suscite des conversations. Nos prompts d'engagement vous aident à poser de meilleures questions et à obtenir plus de commentaires de votre audience.",
+      "freshContent": "Contenu Toujours Frais",
+      "freshContentDesc": "Ne manquez jamais d'idées. Avec 350 prompts dans 10 catégories, vous aurez une inspiration infinie pour les légendes, reels, stories et plus encore."
+    },
+    "trust": {
+      "title": "Fait Confiance par les Créateurs Instagram du Monde Entier",
+      "subtitle": "Chaque prompt de notre bibliothèque a été soigneusement créé et testé par des experts en marketing de contenu. Pas de modèles génériques, juste des prompts éprouvés qui donnent des résultats.",
+      "handCrafted": "Prompts Créés à la Main",
+      "categories": "Catégories de Contenu",
+      "freeTested": "Gratuit et Testé",
+      "platforms": "Plateformes IA Prises en Charge"
+    },
+    "cta": {
+      "title": "Prêt à Créer un Meilleur Contenu Instagram ?",
+      "description": "Parcourez plus de 50 prompts IA créés par des experts et ne manquez plus jamais d'idées de contenu.",
+      "button": "Trouvez Votre Prompt Parfait Gratuitement"
+    },
+    "footer": {
+      "title": "Bibliothèque de Prompts AI",
+      "description": "350 prompts AI gratuits pour les créateurs Instagram. Fonctionne avec ChatGPT, Claude et Gemini.",
+      "quickLinks": "Liens Rapides",
+      "categories": "Explorer les Catégories",
+      "browseByCategory": "Parcourir par catégorie...",
+      "viewAll": "Voir Toutes les Catégories →",
+      "copyright": "© 2026 Bibliothèque de Prompts AI pour Instagram. Tous droits réservés.",
+      "findPrompts": "Trouver des Prompts",
+      "browseAll": "Parcourir Tous les Prompts"
+    },
+    "theme": {
+      "light": "Passer au Mode Sombre",
+      "dark": "Passer au Mode Clair"
+    },
+    "language": {
+      "select": "Langue",
+      "en": "Anglais",
+      "ro": "Roumain",
+      "es": "Espagnol",
+      "fr": "Français",
+      "de": "Allemand"
+    },
+    "categories": {
+      "captionIdeas": "Idées de Légendes",
+      "reelScripts": "Scripts de Reels",
+      "hashtagResearch": "Recherche de Hashtags",
+      "bioGenerator": "Générateur de Bio",
+      "hookIdeas": "Idées d'Accroches",
+      "storyIdeas": "Idées de Stories",
+      "carouselContent": "Contenu Carrousel",
+      "engagementPrompts": "Prompts d'Engagement",
+      "contentCalendar": "Calendrier de Contenu",
+      "trendAnalysis": "Analyse des Tendances"
+    },
+    "niches": {
+      "fashion": "Mode & Style",
+      "fitness": "Fitness & Santé",
+      "food": "Cuisine & Gastronomie",
+      "travel": "Voyage & Aventure",
+      "business": "Business & Entrepreneuriat",
+      "lifestyle": "Style de Vie & Personnel",
+      "beauty": "Beauté & Soins de la Peau",
+      "tech": "Tech & Gadgets",
+      "photography": "Photographie & Art",
+      "parenting": "Parentalité & Famille"
+    },
+    "tones": {
+      "casual": "Décontracté & Amical",
+      "professional": "Professionnel",
+      "funny": "Drôle & Humoristique",
+      "motivational": "Motivant & Inspirant",
+      "educational": "Éducatif",
+      "storytelling": "Narratif"
+    }
+  },
+  "de": {
+    "nav": {
+      "findPrompts": "Prompts Finden",
+      "browseAll": "Alles Durchsuchen",
+      "blog": "Blog",
+      "about": "Über",
+      "getPromptsFree": "Kostenlose Prompts"
+    },
+    "hero": {
+      "title": "350 Sofort Einsatzbereite AI-Prompts für Instagram Content-Ersteller",
+      "subtitle": "Von Experten erstellte ChatGPT & Claude Prompts für Bildunterschriften, Reels, Hashtags und mehr. Einfach kopieren, einfügen und erstaunliche Inhalte erstellen. Kein leeres Bildschirm-Syndrom mehr.",
+      "ctaPrimary": "Finden Sie Ihren Perfekten Prompt",
+      "ctaSecondary": "Alle 350 Prompts Durchsuchen"
+    },
+    "stats": {
+      "prompts": "AI-Prompts",
+      "categories": "Kategorien",
+      "free": "100% Kostenlos"
+    },
+    "howItWorks": {
+      "title": "Wie es Funktioniert",
+      "subtitle": "Beginnen Sie mit AI-gestütztem Instagram-Content in 3 einfachen Schritten",
+      "step1": "Durchsuchen & Filtern",
+      "step1Desc": "Erkunden Sie 350 Prompts, organisiert nach Kategorie, Nische und Ton.",
+      "step2": "Prompt Kopieren",
+      "step2Desc": "Klicken Sie, um jeden Prompt sofort in die Zwischenablage zu kopieren.",
+      "step3": "Inhalt Generieren",
+      "step3Desc": "In ChatGPT oder Claude einfügen und in Sekunden erstaunliche Inhalte erhalten."
+    },
+    "categories": {
+      "title": "Nach Kategorie Durchsuchen",
+      "subtitle": "Finden Sie die perfekten Prompts für jede Art von Instagram-Content"
+    },
+    "generator": {
+      "title": "Finden Sie Ihren Perfekten AI-Prompt",
+      "subtitle": "Filtern Sie unsere fachmännisch erstellten Prompts nach Kategorie, Nische und Ton",
+      "freeAccess": "100% Kostenloser Zugang",
+      "freeAccessDesc": "Durchsuchen und filtern Sie alle 350 Prompts ohne Grenzen!",
+      "category": "Inhaltskategorie",
+      "niche": "Ihre Nische",
+      "tone": "Ton & Stil",
+      "selectCategory": "Kategorie auswählen...",
+      "selectNiche": "Ihre Nische auswählen...",
+      "selectTone": "Ton auswählen...",
+      "showMatching": "Passende Prompts Anzeigen",
+      "tip": "Tipp:",
+      "tipText": "Je spezifischer Ihre Auswahl ist, desto gezielter werden Ihre Prompts sein. Probieren Sie verschiedene Kombinationen aus, um unsere vollständige Bibliothek zu erkunden!",
+      "emptyTitle": "Bereit, Ihre Prompts zu Finden?",
+      "emptyDesc": "Wählen Sie links Ihre Präferenzen aus und klicken Sie auf \"Passende Prompts Anzeigen\", um unsere Bibliothek zu durchsuchen.",
+      "resultsTitle": "Ihre Passenden Prompts",
+      "showMore": "Mehr Anzeigen"
+    },
+    "browse": {
+      "title": "Alle AI-Prompts Durchsuchen",
+      "subtitle": "Erkunden Sie 350 professionell erstellte AI-Prompts für Instagram-Content-Erstellung",
+      "infoBox": "✨ Alle Prompts funktionieren mit ChatGPT, Claude & Gemini",
+      "infoBoxDesc": "Einfach kopieren und in Ihr bevorzugtes AI-Tool einfügen",
+      "showing": "Anzeige",
+      "prompts": "Prompts",
+      "allCategories": "Alle Kategorien",
+      "allNiches": "Alle Nischen",
+      "allTones": "Alle Töne & Stile",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "worksWith": "Funktioniert mit:",
+      "noResults": "Keine Prompts gefunden",
+      "noResultsDesc": "Versuchen Sie, Ihre Filter anzupassen, um mehr Ergebnisse zu sehen.",
+      "loading": "Prompts werden geladen...",
+      "howToUseTitle": "So Verwenden Sie Diese Prompts",
+      "howToUseDesc": "Durchsuchen Sie einfach, filtern Sie nach Kategorie, Nische oder Ton, kopieren Sie den gewünschten Prompt und fügen Sie ihn in ChatGPT, Claude oder ein beliebiges AI-Tool ein. Passen Sie das Ergebnis an Ihre einzigartige Stimme und Marke an.",
+      "learnMore": "Mehr Erfahren"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Lernen Sie, wie Sie AI für Instagram-Content-Erstellung verwenden",
+      "readMore": "Mehr Lesen",
+      "minRead": "Min. Lesen"
+    },
+    "benefits": {
+      "title": "Warum AI-Prompts für Instagram Verwenden?",
+      "saveTime": "Zeit Sparen",
+      "saveTimeDesc": "Hören Sie auf, Stunden mit Brainstorming von Content-Ideen zu verbringen. Erhalten Sie sofortige Inspiration mit bewährten Prompts.",
+      "betterResults": "Bessere Ergebnisse",
+      "betterResultsDesc": "Gut gestaltete Prompts erzeugen qualitativ hochwertigeren AI-generierten Content, der bei Ihrer Zielgruppe ankommt.",
+      "learnPrompt": "Prompt-Engineering Lernen",
+      "learnPromptDesc": "Sehen Sie, wie professionelle Prompts strukturiert sind und verbessern Sie Ihre eigenen AI-Interaktionsfähigkeiten.",
+      "stayConsistent": "Konsistent Bleiben",
+      "stayConsistentDesc": "Gehen Sie niemals die Content-Ideen aus. Halten Sie Ihren Posting-Zeitplan voll mit vielfältigem, ansprechendem Content."
+    },
+    "whyChoose": {
+      "title": "Warum Ersteller Unsere Prompts Wählen",
+      "subtitle": "Alles, was Sie brauchen, um besseren Instagram-Content mit AI zu erstellen",
+      "saveHours": "Sparen Sie Stunden an Zeit",
+      "saveHoursDesc": "Hören Sie auf, leere Bildschirme anzustarren. Erhalten Sie sofort Caption-Ideen, Reel-Skripte und Hooks in Sekunden. Verbringen Sie weniger Zeit mit Brainstorming, mehr Zeit mit Erstellen.",
+      "tailored": "Auf Ihre Nische Zugeschnitten",
+      "tailoredDesc": "Filtern Sie nach 10 Nischen und 6 Tonstilen. Ob Fitness, Mode oder Food, finden Sie Prompts, die perfekt zur Stimme Ihrer Marke passen.",
+      "expertCrafted": "Von Experten Erstellt",
+      "expertCraftedDesc": "Jeder Prompt wird von Content-Strategen handgefertigt und mit echten AI-Tools getestet. Keine generischen Vorlagen – nur Prompts, die wirklich funktionieren.",
+      "freeAccess": "100% Kostenloser Zugang",
+      "freeAccessDesc": "Alle 350 Prompts sind völlig kostenlos. Keine versteckten Gebühren, keine Abonnements. Einfach kopieren, in ChatGPT oder Claude einfügen und erstellen.",
+      "boostEngagement": "Engagement Steigern",
+      "boostEngagementDesc": "Erstellen Sie Content, der Gespräche anregt. Unsere Engagement-Prompts helfen Ihnen, bessere Fragen zu stellen und mehr Kommentare von Ihrer Zielgruppe zu erhalten.",
+      "freshContent": "Immer Frischer Content",
+      "freshContentDesc": "Gehen Sie niemals die Ideen aus. Mit 350 Prompts in 10 Kategorien haben Sie endlose Inspiration für Captions, Reels, Stories und mehr."
+    },
+    "trust": {
+      "title": "Vertraut von Instagram-Erstellern Weltweit",
+      "subtitle": "Jeder Prompt in unserer Bibliothek wurde sorgfältig von Content-Marketing-Experten erstellt und getestet. Keine generischen Vorlagen – nur bewährte Prompts, die Ergebnisse liefern.",
+      "handCrafted": "Handgefertigte Prompts",
+      "categories": "Content-Kategorien",
+      "freeTested": "Kostenlos & Getestet",
+      "platforms": "Unterstützte AI-Plattformen"
+    },
+    "cta": {
+      "title": "Bereit, Besseren Instagram-Content zu Erstellen?",
+      "description": "Durchsuchen Sie über 50 von Experten erstellte AI-Prompts und gehen Sie nie wieder die Content-Ideen aus.",
+      "button": "Finden Sie Ihren Perfekten Prompt Kostenlos"
+    },
+    "footer": {
+      "title": "AI-Prompt-Bibliothek",
+      "description": "350 kostenlose AI-Prompts für Instagram-Ersteller. Funktioniert mit ChatGPT, Claude und Gemini.",
+      "quickLinks": "Schnelllinks",
+      "categories": "Kategorien Erkunden",
+      "browseByCategory": "Nach Kategorie durchsuchen...",
+      "viewAll": "Alle Kategorien Anzeigen →",
+      "copyright": "© 2026 AI-Prompt-Bibliothek für Instagram. Alle Rechte vorbehalten.",
+      "findPrompts": "Prompts Finden",
+      "browseAll": "Alle Prompts Durchsuchen"
+    },
+    "theme": {
+      "light": "Zu Dunklem Modus Wechseln",
+      "dark": "Zu Hellem Modus Wechseln"
+    },
+    "language": {
+      "select": "Sprache",
+      "en": "Englisch",
+      "ro": "Rumänisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch"
+    },
+    "categories": {
+      "captionIdeas": "Bildunterschrift-Ideen",
+      "reelScripts": "Reel-Skripte",
+      "hashtagResearch": "Hashtag-Recherche",
+      "bioGenerator": "Bio-Generator",
+      "hookIdeas": "Hook-Ideen",
+      "storyIdeas": "Story-Ideen",
+      "carouselContent": "Karussell-Inhalte",
+      "engagementPrompts": "Engagement-Prompts",
+      "contentCalendar": "Inhaltskalender",
+      "trendAnalysis": "Trend-Analyse"
+    },
+    "niches": {
+      "fashion": "Mode & Stil",
+      "fitness": "Fitness & Gesundheit",
+      "food": "Essen & Kochen",
+      "travel": "Reisen & Abenteuer",
+      "business": "Business & Unternehmertum",
+      "lifestyle": "Lifestyle & Persönlich",
+      "beauty": "Beauty & Hautpflege",
+      "tech": "Tech & Gadgets",
+      "photography": "Fotografie & Kunst",
+      "parenting": "Elternschaft & Familie"
+    },
+    "tones": {
+      "casual": "Locker & Freundlich",
+      "professional": "Professionell",
+      "funny": "Lustig & Humorvoll",
+      "motivational": "Motivierend & Inspirierend",
+      "educational": "Lehrreich",
+      "storytelling": "Erzählerisch"
+    }
+  }
+}

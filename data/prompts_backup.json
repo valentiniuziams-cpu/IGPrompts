@@ -1,0 +1,1980 @@
+{
+  "categories": [
+    {
+      "id": "caption-ideas",
+      "name": "Caption Ideas",
+      "description": "Engaging captions that drive likes and comments",
+      "icon": "✍️"
+    },
+    {
+      "id": "reel-scripts",
+      "name": "Reel Scripts",
+      "description": "Video content ideas and engaging scripts",
+      "icon": "🎬"
+    },
+    {
+      "id": "hashtag-research",
+      "name": "Hashtag Research",
+      "description": "Find the best hashtags for your niche",
+      "icon": "#️⃣"
+    },
+    {
+      "id": "bio-generator",
+      "name": "Bio Generator",
+      "description": "Compelling bios that convert visitors to followers",
+      "icon": "👤"
+    },
+    {
+      "id": "hook-ideas",
+      "name": "Hook Ideas",
+      "description": "Attention-grabbing hooks for maximum engagement",
+      "icon": "🎣"
+    },
+    {
+      "id": "story-ideas",
+      "name": "Story Ideas",
+      "description": "Creative Instagram Stories content prompts",
+      "icon": "📱"
+    },
+    {
+      "id": "carousel-content",
+      "name": "Carousel Content",
+      "description": "Educational carousel post ideas",
+      "icon": "📊"
+    },
+    {
+      "id": "engagement-prompts",
+      "name": "Engagement Prompts",
+      "description": "Questions and polls to boost engagement",
+      "icon": "💬"
+    },
+    {
+      "id": "content-calendar",
+      "name": "Content Calendar",
+      "description": "Strategic content planning prompts",
+      "icon": "📅"
+    },
+    {
+      "id": "trend-analysis",
+      "name": "Trend Analysis",
+      "description": "Analyze and leverage trending topics",
+      "icon": "📈"
+    }
+  ],
+  "niches": [
+    {
+      "id": "fashion",
+      "name": "Fashion & Style"
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness & Health"
+    },
+    {
+      "id": "food",
+      "name": "Food & Cooking"
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Adventure"
+    },
+    {
+      "id": "business",
+      "name": "Business & Entrepreneurship"
+    },
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle & Personal"
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Skincare"
+    },
+    {
+      "id": "tech",
+      "name": "Tech & Gadgets"
+    },
+    {
+      "id": "photography",
+      "name": "Photography & Art"
+    },
+    {
+      "id": "parenting",
+      "name": "Parenting & Family"
+    }
+  ],
+  "tones": [
+    {
+      "id": "casual",
+      "name": "Casual & Friendly"
+    },
+    {
+      "id": "professional",
+      "name": "Professional"
+    },
+    {
+      "id": "funny",
+      "name": "Funny & Humorous"
+    },
+    {
+      "id": "motivational",
+      "name": "Motivational & Inspirational"
+    },
+    {
+      "id": "educational",
+      "name": "Educational"
+    },
+    {
+      "id": "storytelling",
+      "name": "Storytelling"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "001",
+      "category": "caption-ideas",
+      "niche": "fitness",
+      "tone": "motivational",
+      "prompt": "Generate 5 Instagram captions for a post about morning workout routines. Make them motivational and inspiring, include a call-to-action to encourage followers to share their morning routine, and keep each caption under 150 characters. Add relevant fitness emojis that match the energy of early morning training.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "captions",
+        "fitness",
+        "motivation",
+        "morning-routine",
+        "workout"
+      ]
+    },
+    {
+      "id": "002",
+      "category": "caption-ideas",
+      "niche": "fashion",
+      "tone": "casual",
+      "prompt": "Create 5 casual and relatable Instagram captions for a fashion outfit post. The captions should feel like talking to a friend, include fashion tips or styling advice, and end with an engaging question to boost comments. Use trendy fashion emojis and keep it under 200 characters.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "captions",
+        "fashion",
+        "outfit",
+        "style",
+        "casual"
+      ]
+    },
+    {
+      "id": "003",
+      "category": "caption-ideas",
+      "niche": "food",
+      "tone": "funny",
+      "prompt": "Write 5 funny and witty Instagram captions for a food post featuring a dessert. Make people smile or laugh, include food puns if possible, and create curiosity about the recipe. Add appetizing food emojis and keep the tone light and entertaining.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "captions",
+        "food",
+        "dessert",
+        "funny",
+        "humor"
+      ]
+    },
+    {
+      "id": "004",
+      "category": "caption-ideas",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Generate 5 inspirational Instagram captions for a travel photo from a beach destination. Capture the feeling of wanderlust and adventure, include reflections about travel experiences, and inspire followers to explore new places. Use travel emojis and aim for 150-250 characters.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "captions",
+        "travel",
+        "beach",
+        "inspiration",
+        "wanderlust"
+      ]
+    },
+    {
+      "id": "005",
+      "category": "caption-ideas",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Create 5 professional Instagram captions for a business or entrepreneurship post about productivity tips. The tone should be authoritative yet approachable, include actionable insights, and encourage professional discussion in the comments. Use business-appropriate emojis sparingly.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "captions",
+        "business",
+        "productivity",
+        "professional",
+        "entrepreneur"
+      ]
+    },
+    {
+      "id": "006",
+      "category": "reel-scripts",
+      "niche": "fitness",
+      "tone": "educational",
+      "prompt": "Write a 30-second Instagram Reel script about '5 Common Workout Mistakes Beginners Make'. Structure it with a hook in the first 3 seconds, list each mistake with a quick fix, and end with a strong call-to-action. Include suggestions for on-screen text and transitions.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "fitness",
+        "education",
+        "mistakes",
+        "beginners"
+      ]
+    },
+    {
+      "id": "007",
+      "category": "reel-scripts",
+      "niche": "food",
+      "tone": "casual",
+      "prompt": "Create a 45-second Instagram Reel script for a quick and easy recipe tutorial. Include an attention-grabbing opening, step-by-step instructions that are easy to follow visually, and end with a mouth-watering final shot. Add suggestions for trending audio and text overlays.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "reels",
+        "food",
+        "recipe",
+        "tutorial",
+        "cooking"
+      ]
+    },
+    {
+      "id": "008",
+      "category": "reel-scripts",
+      "niche": "fashion",
+      "tone": "funny",
+      "prompt": "Write a funny 20-second Instagram Reel script about 'Types of People When Getting Dressed'. Create 3-4 relatable character types, make it humorous and shareable, and include suggestions for quick cuts and facial expressions. The goal is virality through relatability.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "fashion",
+        "funny",
+        "relatable",
+        "viral"
+      ]
+    },
+    {
+      "id": "009",
+      "category": "reel-scripts",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Generate a 40-second Instagram Reel script showcasing a day in a specific travel destination. Start with an inspiring hook about why this place is special, include 5-6 must-see spots with brief descriptions, and end with travel tips. Suggest cinematic transitions and music style.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "travel",
+        "destination",
+        "guide",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "010",
+      "category": "reel-scripts",
+      "niche": "beauty",
+      "tone": "educational",
+      "prompt": "Create a 35-second Instagram Reel script for a 'Morning Skincare Routine' tutorial. Break down each step clearly, explain the benefits of each product, and make it suitable for beginners. Include suggestions for close-up shots and product showcases.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "reels",
+        "beauty",
+        "skincare",
+        "routine",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "011",
+      "category": "hashtag-research",
+      "niche": "fitness",
+      "tone": "professional",
+      "prompt": "Generate a comprehensive hashtag strategy for a fitness influencer who posts workout videos and nutrition tips. Include 3 categories: 5 high-competition hashtags (500k+ posts), 10 medium-competition hashtags (50k-500k posts), and 10 low-competition niche hashtags (under 50k posts). Explain the strategy behind this mix.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "fitness",
+        "strategy",
+        "research",
+        "growth"
+      ]
+    },
+    {
+      "id": "012",
+      "category": "hashtag-research",
+      "niche": "food",
+      "tone": "professional",
+      "prompt": "Create a targeted hashtag list for a food blogger who shares recipes and restaurant reviews. Provide 25-30 hashtags divided into categories: general food hashtags, cuisine-specific tags, location-based tags (if applicable), and community hashtags. Include tips on hashtag rotation.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hashtags",
+        "food",
+        "recipes",
+        "restaurants",
+        "blogger"
+      ]
+    },
+    {
+      "id": "013",
+      "category": "hashtag-research",
+      "niche": "fashion",
+      "tone": "professional",
+      "prompt": "Develop a seasonal hashtag strategy for a fashion influencer launching a spring wardrobe collection. Include trending seasonal tags, evergreen fashion hashtags, style-specific tags, and brand collaboration hashtags. Provide a posting schedule showing when to use each set.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "fashion",
+        "seasonal",
+        "strategy",
+        "wardrobe"
+      ]
+    },
+    {
+      "id": "014",
+      "category": "bio-generator",
+      "niche": "fitness",
+      "tone": "professional",
+      "prompt": "Write 5 compelling Instagram bio options for a certified personal trainer and nutrition coach. Each bio should include credentials, unique value proposition, a call-to-action, and relevant emojis. Keep each under 150 characters and make them conversion-focused.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "fitness",
+        "trainer",
+        "coach",
+        "professional"
+      ]
+    },
+    {
+      "id": "015",
+      "category": "bio-generator",
+      "niche": "travel",
+      "tone": "casual",
+      "prompt": "Create 5 fun and adventurous Instagram bio options for a travel blogger who specializes in budget travel. Each bio should showcase personality, mention the travel niche, include a memorable tagline, and add a link CTA. Use travel emojis creatively.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "bio",
+        "travel",
+        "blogger",
+        "budget",
+        "adventure"
+      ]
+    },
+    {
+      "id": "016",
+      "category": "bio-generator",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Generate 5 professional Instagram bio options for a business coach specializing in helping women entrepreneurs. Include expertise, target audience, social proof or achievement, and a clear call-to-action. Keep it authoritative yet approachable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "business",
+        "coach",
+        "entrepreneur",
+        "professional"
+      ]
+    },
+    {
+      "id": "017",
+      "category": "hook-ideas",
+      "niche": "fitness",
+      "tone": "casual",
+      "prompt": "Create 10 scroll-stopping opening hooks for fitness content on Instagram. Each hook should create curiosity, promise value, or challenge common beliefs. Format them as the first line of a caption that makes people want to read more or stop scrolling.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hooks",
+        "fitness",
+        "attention",
+        "engagement",
+        "captions"
+      ]
+    },
+    {
+      "id": "018",
+      "category": "hook-ideas",
+      "niche": "food",
+      "tone": "funny",
+      "prompt": "Generate 10 attention-grabbing hooks for food content that make people stop and engage. Use humor, curiosity gaps, or surprising facts. These should work for both captions and Reels. Make them shareable and comment-worthy.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hooks",
+        "food",
+        "funny",
+        "engagement",
+        "viral"
+      ]
+    },
+    {
+      "id": "019",
+      "category": "hook-ideas",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Write 10 powerful opening hooks for business and entrepreneurship content. Each hook should challenge conventional wisdom, promise a specific benefit, or use a pattern interrupt. Make them professional but provocative enough to drive engagement.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hooks",
+        "business",
+        "entrepreneur",
+        "engagement",
+        "value"
+      ]
+    },
+    {
+      "id": "020",
+      "category": "story-ideas",
+      "niche": "lifestyle",
+      "tone": "casual",
+      "prompt": "Create 15 interactive Instagram Story ideas for a lifestyle influencer. Include a mix of polls, question stickers, quizzes, 'This or That' comparisons, and behind-the-scenes content. Each idea should encourage direct engagement and DMs.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "stories",
+        "lifestyle",
+        "interactive",
+        "engagement",
+        "polls"
+      ]
+    },
+    {
+      "id": "021",
+      "category": "story-ideas",
+      "niche": "beauty",
+      "tone": "educational",
+      "prompt": "Generate 10 educational Instagram Story series ideas for a beauty and skincare creator. Each series should span 5-10 stories, provide value, and keep viewers engaged throughout. Include interactive elements and ways to drive saves and shares.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "beauty",
+        "skincare",
+        "education",
+        "series"
+      ]
+    },
+    {
+      "id": "022",
+      "category": "carousel-content",
+      "niche": "fitness",
+      "tone": "educational",
+      "prompt": "Design a 10-slide Instagram carousel post about 'Complete Guide to Building a Home Gym on a Budget'. Include an attention-grabbing cover slide, essential equipment list, budget breakdown, space-saving tips, and a strong final CTA slide. Provide text for each slide.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "fitness",
+        "home-gym",
+        "guide",
+        "budget"
+      ]
+    },
+    {
+      "id": "023",
+      "category": "carousel-content",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Create an 8-slide Instagram carousel about 'How to Validate Your Business Idea in 7 Days'. Include a compelling cover, step-by-step daily actions, key metrics to track, and a resource list on the final slide. Make it actionable and saveable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "carousel",
+        "business",
+        "startup",
+        "validation",
+        "guide"
+      ]
+    },
+    {
+      "id": "024",
+      "category": "carousel-content",
+      "niche": "food",
+      "tone": "casual",
+      "prompt": "Generate a 7-slide Instagram carousel post titled '7 Kitchen Hacks That Will Change Your Cooking'. Each slide should feature one hack with clear instructions, benefits, and when to use it. Make the cover slide irresistible and the content highly shareable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "food",
+        "cooking",
+        "hacks",
+        "tips"
+      ]
+    },
+    {
+      "id": "025",
+      "category": "engagement-prompts",
+      "niche": "lifestyle",
+      "tone": "casual",
+      "prompt": "Create 20 engaging questions and conversation starters for Instagram captions that will boost comments. Include 'Fill in the blank', 'Choose one', 'Unpopular opinion', and 'Tag someone who' formats. Make them relatable and fun.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "questions",
+        "comments",
+        "lifestyle",
+        "community"
+      ]
+    },
+    {
+      "id": "026",
+      "category": "engagement-prompts",
+      "niche": "travel",
+      "tone": "casual",
+      "prompt": "Generate 15 interactive engagement prompts for travel content that encourage followers to share their experiences. Include questions about dream destinations, travel fails, packing tips, and travel preferences. Make them discussion-worthy.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "engagement",
+        "travel",
+        "questions",
+        "community",
+        "discussion"
+      ]
+    },
+    {
+      "id": "027",
+      "category": "content-calendar",
+      "niche": "fitness",
+      "tone": "professional",
+      "prompt": "Design a complete 30-day Instagram content calendar for a fitness influencer. Include a strategic mix of workout videos, nutrition tips, motivation posts, rest day content, and community engagement. Specify post types (Reel, carousel, single image) and optimal posting times.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "fitness",
+        "planning",
+        "strategy",
+        "30-day"
+      ]
+    },
+    {
+      "id": "028",
+      "category": "content-calendar",
+      "niche": "food",
+      "tone": "professional",
+      "prompt": "Create a themed weekly Instagram content calendar for a food blogger covering breakfast, lunch, dinner, snacks, and meal prep. Include content pillars, post formats, optimal posting schedule, and engagement strategies. Plan for seasonal relevance.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "content-calendar",
+        "food",
+        "weekly",
+        "planning",
+        "themed"
+      ]
+    },
+    {
+      "id": "029",
+      "category": "content-calendar",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Build a quarterly Instagram content strategy for a business coach. Include monthly themes, weekly content pillars (education, inspiration, promotion, engagement), mix of formats, and campaign ideas for product launches or challenges. Add KPIs to track.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "business",
+        "quarterly",
+        "strategy",
+        "planning"
+      ]
+    },
+    {
+      "id": "030",
+      "category": "trend-analysis",
+      "niche": "fashion",
+      "tone": "professional",
+      "prompt": "Analyze current Instagram fashion trends and create a report identifying the top 5 trending styles, colors, and aesthetics for the current season. Include how to incorporate these trends into content strategy, relevant hashtags, and predicted longevity of each trend.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "fashion",
+        "analysis",
+        "strategy",
+        "seasonal"
+      ]
+    },
+    {
+      "id": "031",
+      "category": "trend-analysis",
+      "niche": "fitness",
+      "tone": "professional",
+      "prompt": "Research and report on emerging fitness trends on Instagram for 2026. Identify trending workout styles, popular fitness challenges, rising health topics, and content formats gaining traction. Provide actionable recommendations for content creators.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "trends",
+        "fitness",
+        "2026",
+        "analysis",
+        "research"
+      ]
+    },
+    {
+      "id": "032",
+      "category": "caption-ideas",
+      "niche": "beauty",
+      "tone": "educational",
+      "prompt": "Write 5 educational Instagram captions for beauty product reviews or skincare tutorials. Each caption should provide genuine value, explain the science or benefits, and build trust with the audience. Include product recommendations and honest opinions. Keep it informative yet engaging.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "captions",
+        "beauty",
+        "skincare",
+        "education",
+        "reviews"
+      ]
+    },
+    {
+      "id": "033",
+      "category": "reel-scripts",
+      "niche": "tech",
+      "tone": "educational",
+      "prompt": "Create a 30-second Instagram Reel script reviewing a popular tech gadget or app. Structure it with: hook (why this matters), key features (3-4 points), pros and cons, and final verdict. Make it fast-paced and visually engaging with suggestions for B-roll footage.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "reels",
+        "tech",
+        "review",
+        "gadgets",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "034",
+      "category": "reel-scripts",
+      "niche": "parenting",
+      "tone": "funny",
+      "prompt": "Write a hilarious 25-second Instagram Reel script about 'Parenting Expectations vs Reality'. Create 3 scenarios showing the contrast between what parents thought parenting would be like versus the chaotic reality. Make it relatable and shareable for parent communities.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "parenting",
+        "funny",
+        "relatable",
+        "expectations"
+      ]
+    },
+    {
+      "id": "035",
+      "category": "hashtag-research",
+      "niche": "beauty",
+      "tone": "professional",
+      "prompt": "Build a comprehensive hashtag database for a beauty influencer covering makeup tutorials, skincare routines, and product reviews. Organize 40 hashtags into tiers: viral potential, community engagement, and niche-specific. Include usage instructions for maximum reach.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "beauty",
+        "makeup",
+        "strategy",
+        "database"
+      ]
+    },
+    {
+      "id": "036",
+      "category": "bio-generator",
+      "niche": "food",
+      "tone": "funny",
+      "prompt": "Create 5 witty and humorous Instagram bio options for a food blogger who doesn't take themselves too seriously. Include food puns, self-deprecating humor, and personality. Each bio should still communicate what content followers can expect and include a CTA.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "food",
+        "funny",
+        "humor",
+        "personality"
+      ]
+    },
+    {
+      "id": "037",
+      "category": "hook-ideas",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Generate 10 inspiring opening hooks for travel content that evoke wanderlust and emotional connection. Use storytelling techniques, sensory descriptions, and transformative language. These hooks should make readers dream about traveling and engage deeply with the post.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hooks",
+        "travel",
+        "inspiration",
+        "storytelling",
+        "wanderlust"
+      ]
+    },
+    {
+      "id": "038",
+      "category": "story-ideas",
+      "niche": "fitness",
+      "tone": "motivational",
+      "prompt": "Design 12 motivational Instagram Story templates for fitness creators to use throughout the week. Include Monday motivation, transformation Tuesday, workout Wednesday, throwback Thursday, etc. Each should have interactive elements and inspire action.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "fitness",
+        "motivation",
+        "templates",
+        "weekly"
+      ]
+    },
+    {
+      "id": "039",
+      "category": "carousel-content",
+      "niche": "travel",
+      "tone": "educational",
+      "prompt": "Design a 10-slide Instagram carousel titled 'Ultimate Packing Guide for Digital Nomads'. Include cover slide, essential categories (tech, clothing, documents), space-saving techniques, security tips, and a downloadable checklist CTA. Make it comprehensive and saveable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "travel",
+        "packing",
+        "digital-nomad",
+        "guide"
+      ]
+    },
+    {
+      "id": "040",
+      "category": "carousel-content",
+      "niche": "beauty",
+      "tone": "educational",
+      "prompt": "Create a 9-slide Instagram carousel about 'Understanding Your Skin Type and Building the Perfect Routine'. Include a quiz to determine skin type, product recommendations for each type, common mistakes to avoid, and a routine template. Make it actionable and shareable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "carousel",
+        "beauty",
+        "skincare",
+        "routine",
+        "guide"
+      ]
+    },
+    {
+      "id": "041",
+      "category": "engagement-prompts",
+      "niche": "fitness",
+      "tone": "motivational",
+      "prompt": "Create 15 motivational call-to-action prompts for fitness content that inspire followers to take action, share their goals, or celebrate wins. Include formats like 'Drop a 💪 if...', 'Comment your...', 'Tag someone who needs to see this'. Make them empowering.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "fitness",
+        "motivation",
+        "cta",
+        "community"
+      ]
+    },
+    {
+      "id": "042",
+      "category": "content-calendar",
+      "niche": "beauty",
+      "tone": "professional",
+      "prompt": "Develop a monthly Instagram content calendar for a beauty brand launching a new product line. Include pre-launch teasers, launch day content, user-generated content campaigns, tutorials, and post-launch engagement. Specify post types and timing strategy.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "content-calendar",
+        "beauty",
+        "product-launch",
+        "campaign",
+        "monthly"
+      ]
+    },
+    {
+      "id": "043",
+      "category": "trend-analysis",
+      "niche": "food",
+      "tone": "professional",
+      "prompt": "Conduct a trend analysis of viral food content on Instagram. Identify the top 5 trending recipes, food aesthetics, and content formats currently gaining traction. Provide insights on why they're working and how to adapt them authentically for different niches.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "food",
+        "viral",
+        "analysis",
+        "recipes"
+      ]
+    },
+    {
+      "id": "044",
+      "category": "caption-ideas",
+      "niche": "tech",
+      "tone": "professional",
+      "prompt": "Generate 5 professional Instagram captions for tech product launches or software updates. Each caption should explain the innovation, highlight key benefits, create urgency or excitement, and include a clear call-to-action. Use tech-appropriate emojis minimally.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "captions",
+        "tech",
+        "product-launch",
+        "professional",
+        "innovation"
+      ]
+    },
+    {
+      "id": "045",
+      "category": "caption-ideas",
+      "niche": "parenting",
+      "tone": "storytelling",
+      "prompt": "Write 5 heartfelt storytelling captions for parenting content that connects emotionally with other parents. Share relatable moments, lessons learned, or touching experiences. Make them authentic, vulnerable when appropriate, and community-building. Include thoughtful questions.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "captions",
+        "parenting",
+        "storytelling",
+        "emotional",
+        "community"
+      ]
+    },
+    {
+      "id": "046",
+      "category": "reel-scripts",
+      "niche": "business",
+      "tone": "educational",
+      "prompt": "Create a 40-second Instagram Reel script breaking down 'How I Make $10K/Month as a Creator' or similar income transparency topic. Structure it with: hook, income breakdown by source, time investment, tools used, and realistic expectations. Build trust through honesty.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "business",
+        "creator-economy",
+        "income",
+        "transparency"
+      ]
+    },
+    {
+      "id": "047",
+      "category": "reel-scripts",
+      "niche": "lifestyle",
+      "tone": "casual",
+      "prompt": "Write a 30-second 'Day in My Life' Instagram Reel script that's authentic and engaging. Include morning routine highlight, work/passion project segment, self-care moment, and evening wind-down. Make it relatable, not overly polished. Suggest music style and transitions.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "reels",
+        "lifestyle",
+        "day-in-life",
+        "routine",
+        "authentic"
+      ]
+    },
+    {
+      "id": "048",
+      "category": "hashtag-research",
+      "niche": "travel",
+      "tone": "professional",
+      "prompt": "Compile a location-based hashtag strategy for a travel influencer visiting multiple countries. For each of 5 destinations, provide 10 geo-specific hashtags, 5 general travel tags, and 5 niche tags. Explain how to rotate them for maximum local and global reach.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hashtags",
+        "travel",
+        "location",
+        "international",
+        "strategy"
+      ]
+    },
+    {
+      "id": "049",
+      "category": "bio-generator",
+      "niche": "photography",
+      "tone": "professional",
+      "prompt": "Write 5 professional Instagram bio options for a photographer specializing in portraits/weddings/travel. Each bio should showcase their unique style, years of experience or notable achievements, location or availability, and a booking CTA. Use camera/art emojis tastefully.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "bio",
+        "photography",
+        "photographer",
+        "professional",
+        "booking"
+      ]
+    },
+    {
+      "id": "050",
+      "category": "bio-generator",
+      "niche": "lifestyle",
+      "tone": "casual",
+      "prompt": "Create 5 authentic and personable Instagram bio options for a lifestyle content creator who shares multiple interests (fitness, food, travel, etc.). Each bio should reflect genuine personality, hint at content variety, and feel like meeting a new friend. Include a link CTA.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "lifestyle",
+        "multi-niche",
+        "authentic",
+        "personality"
+      ]
+    },
+    {
+      "id": "051",
+      "category": "hook-ideas",
+      "niche": "beauty",
+      "tone": "casual",
+      "prompt": "Generate 10 scroll-stopping opening hooks for beauty and skincare content. Each hook should create curiosity, promise transformation, or reveal secrets. Make them perfect for the first line of captions or the opening frame of Reels. Include variety: questions, bold statements, and storytelling openers.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hooks",
+        "beauty",
+        "skincare",
+        "attention",
+        "engagement"
+      ]
+    },
+    {
+      "id": "052",
+      "category": "story-ideas",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Design 12 Instagram Story templates for business coaches and consultants. Include educational content, client testimonial showcases, behind-the-scenes work moments, Q&A prompts, and service promotion stories. Make each template professional yet approachable with clear CTAs.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "business",
+        "coaching",
+        "professional",
+        "templates"
+      ]
+    },
+    {
+      "id": "053",
+      "category": "story-ideas",
+      "niche": "food",
+      "tone": "funny",
+      "prompt": "Create 15 funny and relatable Instagram Story ideas for food bloggers. Include cooking fails, kitchen disasters, food delivery reactions, 'What I ordered vs What I got' comparisons, and humorous food opinions. Add interactive elements like polls and question stickers.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "stories",
+        "food",
+        "funny",
+        "relatable",
+        "interactive"
+      ]
+    },
+    {
+      "id": "054",
+      "category": "engagement-prompts",
+      "niche": "beauty",
+      "tone": "casual",
+      "prompt": "Generate 20 engagement-driving questions for beauty and makeup content. Include 'This or That' product comparisons, 'Fill in the Blank' beauty routines, 'Unpopular opinion' makeup debates, and 'Tag someone who needs this' prompts. Make them fun and community-building.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "beauty",
+        "questions",
+        "community",
+        "discussion"
+      ]
+    },
+    {
+      "id": "056",
+      "category": "content-calendar",
+      "niche": "fashion",
+      "tone": "professional",
+      "prompt": "Create a seasonal 30-day Instagram content calendar for a fashion influencer launching a capsule wardrobe collection. Include outfit reveals, styling tips, behind-the-scenes content, user-generated content campaigns, and shopping links. Specify optimal posting times and content mix.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "fashion",
+        "seasonal",
+        "planning",
+        "campaign"
+      ]
+    },
+    {
+      "id": "057",
+      "category": "trend-analysis",
+      "niche": "beauty",
+      "tone": "professional",
+      "prompt": "Research and analyze current beauty and skincare trends on Instagram for 2026. Identify the top 5 trending ingredients, application techniques, and aesthetic styles. Include how to create content around each trend, relevant hashtags, and predicted longevity.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "beauty",
+        "skincare",
+        "2026",
+        "analysis"
+      ]
+    },
+    {
+      "id": "058",
+      "category": "trend-analysis",
+      "niche": "tech",
+      "tone": "educational",
+      "prompt": "Analyze emerging tech trends on Instagram for content creators. Research trending gadgets, AI tools, productivity apps, and tech aesthetics. Provide actionable recommendations for creating trend-focused content including optimal formats (Reels vs carousel) and best practices.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "trends",
+        "tech",
+        "gadgets",
+        "analysis",
+        "education"
+      ]
+    },
+    {
+      "id": "059",
+      "category": "caption-ideas",
+      "niche": "lifestyle",
+      "tone": "storytelling",
+      "prompt": "Generate 5 Instagram captions for a lifestyle post about daily routines and self-improvement. Use storytelling to share personal experiences, lessons learned, and authentic moments. Make followers feel connected and inspired to share their own journey. Include reflective questions and meaningful emojis.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "captions",
+        "lifestyle",
+        "storytelling",
+        "authentic",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "060",
+      "category": "caption-ideas",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Write 5 Instagram captions for a photography post showcasing your work. Share camera settings, lighting techniques, or editing tips. Make it educational yet accessible for beginners. Include behind-the-scenes insights and encourage questions from aspiring photographers.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "captions",
+        "photography",
+        "education",
+        "tips",
+        "behind-the-scenes"
+      ]
+    },
+    {
+      "id": "061",
+      "category": "reel-scripts",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Create a 30-second Instagram Reel script teaching '3 Quick Photo Editing Tricks on Your Phone'. Include before/after reveals, step-by-step instructions for each trick, and specific app recommendations. Make it beginner-friendly with clear visual cues.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "reels",
+        "photography",
+        "editing",
+        "tutorial",
+        "beginner"
+      ]
+    },
+    {
+      "id": "062",
+      "category": "hashtag-research",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Develop a comprehensive hashtag strategy for a business consultant or B2B service provider. Include 25-30 hashtags categorized by reach: high-visibility industry tags, niche-specific professional tags, and branded business hashtags. Add rotation strategy for maximum LinkedIn and Instagram cross-platform visibility.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "business",
+        "B2B",
+        "professional",
+        "strategy"
+      ]
+    },
+    {
+      "id": "063",
+      "category": "hashtag-research",
+      "niche": "lifestyle",
+      "tone": "casual",
+      "prompt": "Create a versatile hashtag list for a lifestyle content creator covering multiple topics (daily life, wellness, productivity, home). Provide 30 hashtags organized by theme and engagement potential. Include trending lifestyle tags and evergreen community hashtags.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hashtags",
+        "lifestyle",
+        "multi-topic",
+        "versatile",
+        "community"
+      ]
+    },
+    {
+      "id": "064",
+      "category": "hashtag-research",
+      "niche": "parenting",
+      "tone": "casual",
+      "prompt": "Build a targeted hashtag strategy for parenting influencers and mom/dad bloggers. Include 30 hashtags covering: parenting stages, family activities, product reviews, and community support. Mix popular parenting hashtags with niche-specific tags for better discoverability.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "parenting",
+        "family",
+        "community",
+        "mom-life"
+      ]
+    },
+    {
+      "id": "065",
+      "category": "hashtag-research",
+      "niche": "photography",
+      "tone": "professional",
+      "prompt": "Generate a comprehensive hashtag database for photographers by specialty (portraits, landscapes, weddings, street photography). Provide 25 hashtags including photography technique tags, equipment-specific tags, and location-based tags. Add strategies for portfolio visibility.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hashtags",
+        "photography",
+        "portfolio",
+        "professional",
+        "niche"
+      ]
+    },
+    {
+      "id": "066",
+      "category": "hashtag-research",
+      "niche": "tech",
+      "tone": "professional",
+      "prompt": "Create a strategic hashtag plan for tech reviewers, developers, and tech enthusiasts. Include 30 hashtags covering: specific technologies, programming languages, gadget reviews, and tech news. Balance trending tech tags with community-building developer hashtags.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hashtags",
+        "tech",
+        "developer",
+        "gadgets",
+        "programming"
+      ]
+    },
+    {
+      "id": "067",
+      "category": "bio-generator",
+      "niche": "beauty",
+      "tone": "professional",
+      "prompt": "Write 5 professional Instagram bio options for a beauty influencer, makeup artist, or skincare specialist. Include credentials, specialty (if applicable), unique selling proposition, and clear CTA for bookings or consultations. Add relevant beauty emojis and maintain aspirational yet approachable tone.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "beauty",
+        "makeup-artist",
+        "professional",
+        "specialist"
+      ]
+    },
+    {
+      "id": "068",
+      "category": "bio-generator",
+      "niche": "fashion",
+      "tone": "casual",
+      "prompt": "Create 5 stylish Instagram bio options for a fashion blogger or style influencer. Capture personality, fashion aesthetic (minimalist, vintage, streetwear, etc.), and unique perspective on style. Include location and shopping link CTA. Use fashion-forward emojis creatively.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "bio",
+        "fashion",
+        "style",
+        "influencer",
+        "aesthetic"
+      ]
+    },
+    {
+      "id": "069",
+      "category": "bio-generator",
+      "niche": "parenting",
+      "tone": "funny",
+      "prompt": "Generate 5 humorous Instagram bio options for parenting bloggers who embrace the chaos. Use self-deprecating humor, relatable parenting truths, and witty one-liners. Make it authentic and funny while still communicating content focus. Include family-friendly emojis.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bio",
+        "parenting",
+        "humor",
+        "funny",
+        "relatable"
+      ]
+    },
+    {
+      "id": "070",
+      "category": "bio-generator",
+      "niche": "tech",
+      "tone": "professional",
+      "prompt": "Write 5 concise Instagram bio options for tech professionals, developers, or tech content creators. Highlight technical expertise, programming languages/technologies, and professional accomplishments. Include link to portfolio, GitHub, or tech blog. Keep it professional yet personable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "bio",
+        "tech",
+        "developer",
+        "professional",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "071",
+      "category": "hook-ideas",
+      "niche": "fashion",
+      "tone": "casual",
+      "prompt": "Create 10 attention-grabbing opening hooks for fashion and style content. Use curiosity gaps, style challenges, and relatable fashion problems. Perfect for captions and Reels. Make them scroll-stopping and encourage engagement through relatability.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hooks",
+        "fashion",
+        "style",
+        "engagement",
+        "relatable"
+      ]
+    },
+    {
+      "id": "072",
+      "category": "hook-ideas",
+      "niche": "lifestyle",
+      "tone": "motivational",
+      "prompt": "Generate 10 inspiring opening hooks for lifestyle and personal development content. Create emotional connection through aspirational statements, life lessons, and transformational promises. Make them motivational yet grounded in reality.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hooks",
+        "lifestyle",
+        "motivation",
+        "inspiration",
+        "personal-growth"
+      ]
+    },
+    {
+      "id": "073",
+      "category": "hook-ideas",
+      "niche": "parenting",
+      "tone": "funny",
+      "prompt": "Write 10 hilarious opening hooks for parenting content that make parents laugh and nod in recognition. Use relatable parenting chaos, exhaustion humor, and 'only parents understand' moments. Make them shareable and comment-worthy.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hooks",
+        "parenting",
+        "humor",
+        "relatable",
+        "viral"
+      ]
+    },
+    {
+      "id": "074",
+      "category": "hook-ideas",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Create 10 educational opening hooks for photography tips and tutorials. Promise specific improvements, challenge common mistakes, or reveal professional secrets. Make photographers want to save and apply the advice immediately.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "hooks",
+        "photography",
+        "education",
+        "tips",
+        "professional"
+      ]
+    },
+    {
+      "id": "075",
+      "category": "hook-ideas",
+      "niche": "tech",
+      "tone": "professional",
+      "prompt": "Generate 10 compelling opening hooks for tech content, tutorials, and product reviews. Use tech curiosity, problem-solving promises, and innovation teasers. Make tech enthusiasts want to learn more. Balance technical credibility with accessibility.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "hooks",
+        "tech",
+        "tutorials",
+        "innovation",
+        "reviews"
+      ]
+    },
+    {
+      "id": "076",
+      "category": "story-ideas",
+      "niche": "fashion",
+      "tone": "casual",
+      "prompt": "Design 15 interactive Instagram Story ideas for fashion creators. Include outfit polls, style quizzes, 'Get Ready With Me' tutorials, closet organization tips, and shopping haul reveals. Add interactive stickers to boost engagement and DMs.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "fashion",
+        "interactive",
+        "polls",
+        "GRWM"
+      ]
+    },
+    {
+      "id": "077",
+      "category": "story-ideas",
+      "niche": "parenting",
+      "tone": "funny",
+      "prompt": "Create 12 relatable and humorous Instagram Story ideas for parents. Include 'Parenting Reality' moments, kid quotes, product recommendations, survival tips, and 'Tag a parent who...' prompts. Make them shareable and build community through shared experiences.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "stories",
+        "parenting",
+        "humor",
+        "relatable",
+        "community"
+      ]
+    },
+    {
+      "id": "078",
+      "category": "story-ideas",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Generate 10 educational Instagram Story series ideas for photographers. Include gear reviews, editing process breakdowns, location scouting tips, client interaction advice, and photography challenge prompts. Make each series span 5-7 stories with value in every frame.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "photography",
+        "education",
+        "tutorials",
+        "gear"
+      ]
+    },
+    {
+      "id": "079",
+      "category": "story-ideas",
+      "niche": "tech",
+      "tone": "educational",
+      "prompt": "Design 12 tech-focused Instagram Story ideas including app reviews, coding tips, tech news breakdowns, gadget comparisons, and tech setup tours. Add interactive elements like 'Which tech should I review next?' polls and Q&A sessions.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "stories",
+        "tech",
+        "education",
+        "reviews",
+        "interactive"
+      ]
+    },
+    {
+      "id": "080",
+      "category": "story-ideas",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Create 15 inspiring Instagram Story ideas for travel content creators. Include destination highlights, travel tips, packing tutorials, budget breakdowns, hidden gems reveals, and 'Travel with Me' immersive experiences. Evoke wanderlust and provide actionable travel value.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "stories",
+        "travel",
+        "inspiration",
+        "tips",
+        "wanderlust"
+      ]
+    },
+    {
+      "id": "081",
+      "category": "carousel-content",
+      "niche": "fashion",
+      "tone": "educational",
+      "prompt": "Design a 10-slide Instagram carousel: 'How to Build a Capsule Wardrobe on Any Budget'. Include essential pieces, styling formulas, color palette guide, shopping strategies, and seasonal adaptation tips. Make it actionable with specific examples and price ranges.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "fashion",
+        "capsule-wardrobe",
+        "budget",
+        "guide"
+      ]
+    },
+    {
+      "id": "082",
+      "category": "carousel-content",
+      "niche": "lifestyle",
+      "tone": "motivational",
+      "prompt": "Create an 8-slide motivational carousel: '8 Daily Habits That Changed My Life'. Share transformative routines, mindset shifts, and practical implementation steps. Include before/after perspectives and encourage readers to start today. Make it inspiring yet achievable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "carousel",
+        "lifestyle",
+        "habits",
+        "motivation",
+        "transformation"
+      ]
+    },
+    {
+      "id": "083",
+      "category": "carousel-content",
+      "niche": "parenting",
+      "tone": "educational",
+      "prompt": "Design a 10-slide Instagram carousel: 'Age-Appropriate Chores for Kids (2-18 Years)'. Break down by age groups, provide specific task examples, explain developmental benefits, and include printable chore chart ideas. Make it practical and encouraging for parents.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "parenting",
+        "education",
+        "chores",
+        "development"
+      ]
+    },
+    {
+      "id": "084",
+      "category": "carousel-content",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Create a 9-slide carousel: 'Complete Guide to Understanding Your Camera Settings'. Cover aperture, shutter speed, ISO, white balance, and shooting modes. Use simple analogies, visual examples, and when to use each setting. Perfect for beginner photographers.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "carousel",
+        "photography",
+        "camera-settings",
+        "beginner",
+        "guide"
+      ]
+    },
+    {
+      "id": "085",
+      "category": "carousel-content",
+      "niche": "tech",
+      "tone": "educational",
+      "prompt": "Design a 10-slide Instagram carousel: 'Essential Apps Every [Professional/Student] Needs in 2026'. Categorize by function (productivity, communication, creativity, organization). Include app names, key features, pricing, and alternative options. Make it immediately actionable.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "carousel",
+        "tech",
+        "apps",
+        "productivity",
+        "recommendations"
+      ]
+    },
+    {
+      "id": "086",
+      "category": "engagement-prompts",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Generate 15 professional engagement prompts for business and entrepreneurship content. Include thought-provoking questions about strategy, lessons learned polls, expertise-sharing prompts, and 'What would you do?' scenarios. Drive meaningful professional discussions.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "business",
+        "professional",
+        "discussion",
+        "strategy"
+      ]
+    },
+    {
+      "id": "087",
+      "category": "engagement-prompts",
+      "niche": "fashion",
+      "tone": "casual",
+      "prompt": "Create 20 fun engagement prompts for fashion content. Include 'This or That' outfit choices, style preference questions, trend opinion polls, wardrobe confession prompts, and 'Tag your stylish friend' callouts. Make them interactive and conversation-starting.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "engagement",
+        "fashion",
+        "polls",
+        "interactive",
+        "community"
+      ]
+    },
+    {
+      "id": "088",
+      "category": "engagement-prompts",
+      "niche": "food",
+      "tone": "funny",
+      "prompt": "Generate 15 entertaining engagement prompts for food content. Include 'controversial food opinions', 'weird food combinations you love', cooking fail confessions, recipe request polls, and 'Caption this food photo' challenges. Make followers laugh and participate.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "food",
+        "humor",
+        "polls",
+        "community"
+      ]
+    },
+    {
+      "id": "089",
+      "category": "engagement-prompts",
+      "niche": "parenting",
+      "tone": "casual",
+      "prompt": "Create 20 relatable engagement prompts for parenting content. Include 'Only parents understand' fill-in-the-blanks, parenting confession prompts, age-related milestone questions, and 'Tag a parent who needs this' moments. Build supportive community through shared experiences.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "engagement",
+        "parenting",
+        "community",
+        "relatable",
+        "support"
+      ]
+    },
+    {
+      "id": "090",
+      "category": "engagement-prompts",
+      "niche": "photography",
+      "tone": "educational",
+      "prompt": "Generate 15 engagement prompts for photography content that spark discussion and learning. Include gear preference questions, editing style polls, photography challenge prompts, technique-sharing requests, and 'What would you shoot?' scenarios. Foster creative community.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "engagement",
+        "photography",
+        "community",
+        "learning",
+        "creative"
+      ]
+    },
+    {
+      "id": "091",
+      "category": "engagement-prompts",
+      "niche": "tech",
+      "tone": "casual",
+      "prompt": "Create 15 tech-focused engagement prompts including 'Android vs iOS' debates, favorite app polls, tech setup reveals, gadget recommendation requests, and 'Unpopular tech opinion' discussions. Make tech enthusiasts want to share their preferences and expertise.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "engagement",
+        "tech",
+        "debate",
+        "polls",
+        "community"
+      ]
+    },
+    {
+      "id": "092",
+      "category": "content-calendar",
+      "niche": "lifestyle",
+      "tone": "professional",
+      "prompt": "Build a 30-day Instagram content calendar for lifestyle creators covering wellness, productivity, home, and personal growth. Include themed weeks, content pillar rotation, posting schedule, and engagement tactics. Specify post formats (Reels, carousel, single image) and optimal times.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "lifestyle",
+        "30-day",
+        "wellness",
+        "planning"
+      ]
+    },
+    {
+      "id": "093",
+      "category": "content-calendar",
+      "niche": "parenting",
+      "tone": "casual",
+      "prompt": "Design a monthly Instagram content calendar for parenting bloggers. Include parenting tips, product reviews, family activities, real-life moments, and community engagement posts. Balance educational and entertaining content with authentic family storytelling. Add seasonal relevance.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "content-calendar",
+        "parenting",
+        "monthly",
+        "family",
+        "authentic"
+      ]
+    },
+    {
+      "id": "094",
+      "category": "content-calendar",
+      "niche": "photography",
+      "tone": "professional",
+      "prompt": "Create a quarterly Instagram content strategy for photographers building their portfolio and client base. Include portfolio showcases, behind-the-scenes content, tutorial series, client testimonials, and booking campaigns. Specify content types and optimal posting frequency for business growth.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "photography",
+        "quarterly",
+        "portfolio",
+        "business"
+      ]
+    },
+    {
+      "id": "095",
+      "category": "content-calendar",
+      "niche": "tech",
+      "tone": "professional",
+      "prompt": "Develop a 30-day Instagram content calendar for tech creators and reviewers. Include product reviews, coding tutorials, tech news commentary, setup showcases, and community Q&As. Balance evergreen technical content with trending tech topics. Add engagement strategies.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "content-calendar",
+        "tech",
+        "reviews",
+        "tutorials",
+        "planning"
+      ]
+    },
+    {
+      "id": "096",
+      "category": "content-calendar",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Build a seasonal Instagram content calendar for travel influencers. Include destination guides, travel tips, budget breakdowns, packing tutorials, and travel inspiration posts. Plan around travel seasons, booking windows, and wanderlust-inducing content. Add campaign ideas for travel partnerships.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "content-calendar",
+        "travel",
+        "seasonal",
+        "destinations",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "097",
+      "category": "trend-analysis",
+      "niche": "business",
+      "tone": "professional",
+      "prompt": "Analyze emerging business and entrepreneurship trends on Instagram for 2026. Identify trending business models, popular productivity tools, content formats gaining traction among business professionals, and evolving B2B marketing strategies. Provide actionable recommendations for business content creators.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "business",
+        "entrepreneurship",
+        "2026",
+        "analysis"
+      ]
+    },
+    {
+      "id": "098",
+      "category": "trend-analysis",
+      "niche": "lifestyle",
+      "tone": "professional",
+      "prompt": "Research and report on lifestyle trends dominating Instagram in 2026. Cover wellness practices, home aesthetics, productivity methods, and personal development topics gaining momentum. Include hashtag strategies, content format recommendations, and predicted longevity of each trend.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "trends",
+        "lifestyle",
+        "wellness",
+        "2026",
+        "research"
+      ]
+    },
+    {
+      "id": "099",
+      "category": "trend-analysis",
+      "niche": "parenting",
+      "tone": "casual",
+      "prompt": "Analyze current parenting trends on Instagram including popular parenting philosophies, viral parenting hacks, trending family activities, and educational approaches. Identify what's resonating with parent audiences and provide content creation recommendations for parenting influencers.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "parenting",
+        "family",
+        "analysis",
+        "viral"
+      ]
+    },
+    {
+      "id": "100",
+      "category": "trend-analysis",
+      "niche": "photography",
+      "tone": "professional",
+      "prompt": "Research emerging photography trends on Instagram for 2026. Analyze trending photography styles, popular editing aesthetics, rising photography niches, and gear preferences. Provide strategic recommendations for photographers to stay relevant and grow their following.",
+      "use_with": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "trends",
+        "photography",
+        "aesthetics",
+        "2026",
+        "professional"
+      ]
+    },
+    {
+      "id": "101",
+      "category": "trend-analysis",
+      "niche": "travel",
+      "tone": "motivational",
+      "prompt": "Analyze travel trends on Instagram for 2026 including emerging destinations, sustainable travel movements, budget travel innovations, and evolving travel content formats. Identify opportunities for travel creators and predict which destinations will trend next. Provide actionable content strategies.",
+      "use_with": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "tags": [
+        "trends",
+        "travel",
+        "destinations",
+        "sustainable",
+        "2026"
+      ]
+    }
+  ]
+}

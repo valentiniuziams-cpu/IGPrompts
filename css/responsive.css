@@ -1,0 +1,746 @@
+/* ===================================
+   Responsive Design - Mobile First
+   =================================== */
+
+/* Tablet Breakpoint (768px and below) */
+@media (max-width: 768px) {
+    /* Container */
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    /* Navigation */
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 70%;
+        max-width: 300px;
+        height: calc(100vh - 60px);
+        background: var(--bg-primary);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: var(--spacing-lg);
+        box-shadow: var(--shadow-xl);
+        transition: right var(--transition-slow);
+        z-index: 999;
+        border-left: 1px solid var(--border-color);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-link {
+        width: 100%;
+        padding: var(--spacing-sm) 0;
+    }
+
+    .nav-menu .btn {
+        width: 100%;
+        margin-top: var(--spacing-sm);
+    }
+
+    .mobile-menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .mobile-menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    /* Sections */
+    .how-it-works,
+    .categories,
+    .benefits,
+    .recommended-tools,
+    .cta-section {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    /* Steps */
+    .steps {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    /* Category Grid */
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Benefits Grid */
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Tools Grid */
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Generator Page */
+    .generator-wrapper {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .generator-form {
+        position: static;
+    }
+
+    .generator-title {
+        font-size: 1.5rem;
+    }
+
+    .generator-results {
+        min-height: 300px;
+    }
+
+    /* Browse Page - Clean Mobile Design */
+    .page-header {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .page-title {
+        font-size: 1.75rem;
+        padding: 0 var(--spacing-sm);
+        line-height: 1.3;
+    }
+
+    .page-subtitle {
+        font-size: 1rem;
+        padding: 0 var(--spacing-sm);
+        line-height: 1.5;
+    }
+
+    .filter-bar {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0 var(--spacing-sm);
+    }
+
+    .filter-select {
+        width: 100%;
+        padding: 0.875rem 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+
+    .browse-section {
+        padding: var(--spacing-md) 0;
+    }
+
+    .browse-info-box {
+        margin: 0 var(--spacing-sm) var(--spacing-md) var(--spacing-sm) !important;
+    }
+
+    .prompts-count {
+        padding: 0 var(--spacing-sm);
+        text-align: left;
+        font-size: 0.875rem;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .browse-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0 var(--spacing-sm);
+    }
+
+    /* Clean Prompt Card Design for Mobile */
+    .prompt-card {
+        padding: 1rem;
+        border-radius: 12px;
+        background: white;
+        border: 1px solid #e5e7eb;
+    }
+
+    .prompt-header {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .prompt-category {
+        font-size: 0.8125rem;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .prompt-badges {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+    }
+
+    .badge {
+        font-size: 0.6875rem;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-weight: 500;
+    }
+
+    .prompt-content {
+        margin: 0.75rem 0;
+    }
+
+    .prompt-text {
+        font-size: 0.9375rem;
+        line-height: 1.6;
+        color: #374151;
+    }
+
+    .prompt-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid #f3f4f6;
+    }
+
+    .prompt-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.375rem;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+        background: #f3f4f6;
+        color: #6b7280;
+        border-radius: 4px;
+    }
+
+    .copy-btn {
+        align-self: flex-start;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        border-radius: 6px;
+        width: auto;
+        min-width: 100px;
+    }
+
+    /* About Page */
+    .content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about-sidebar {
+        order: -1;
+    }
+
+    .about-article {
+        padding: var(--spacing-lg);
+    }
+
+    .about-article h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    /* CTA Section */
+    .cta-box {
+        padding: var(--spacing-lg);
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-description {
+        font-size: 1rem;
+    }
+
+    /* How to Use */
+    .instructions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Prompt Cards */
+    .prompt-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+
+    .copy-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Mobile Breakpoint (480px and below) */
+@media (max-width: 480px) {
+    /* Typography */
+    html {
+        font-size: 14px;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9375rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    /* Sections */
+    .section-title {
+        font-size: 1.375rem;
+    }
+
+    /* Generator */
+    .generator-form {
+        padding: var(--spacing-md);
+    }
+
+    .generator-results {
+        padding: var(--spacing-md);
+    }
+
+    .empty-state,
+    .limit-state {
+        padding: var(--spacing-lg);
+    }
+
+    .empty-icon,
+    .limit-icon {
+        font-size: 3rem;
+    }
+
+    /* Category Cards */
+    .category-icon {
+        font-size: 2rem;
+    }
+
+    .category-title {
+        font-size: 1.125rem;
+    }
+
+    /* CTA Box */
+    .cta-box {
+        padding: var(--spacing-md);
+    }
+
+    .cta-title {
+        font-size: 1.25rem;
+    }
+
+    /* About Article */
+    .about-article {
+        padding: var(--spacing-md);
+    }
+
+    /* Buttons */
+    .btn-large {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* Page Header - Extra Small */
+    .page-title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .page-subtitle {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    /* Browse Page - Extra Small Screens */
+    .filter-bar {
+        gap: 0.625rem;
+    }
+
+    .filter-select {
+        padding: 0.75rem 0.875rem;
+        font-size: 0.9375rem;
+        border-radius: 8px;
+    }
+
+    .browse-info-box {
+        padding: 0.875rem !important;
+        margin: 0 var(--spacing-sm) 1rem var(--spacing-sm) !important;
+    }
+
+    .browse-info-box div:first-child {
+        font-size: 0.9375rem !important;
+    }
+
+    .browse-info-box div:last-child {
+        font-size: 0.8125rem !important;
+    }
+
+    .browse-grid {
+        gap: 0.875rem;
+    }
+
+    .prompts-count {
+        margin-bottom: 0.875rem;
+        font-size: 0.8125rem;
+    }
+
+    /* Compact Prompt Cards for Small Screens */
+    .prompt-card {
+        padding: 0.875rem;
+        border-radius: 10px;
+    }
+
+    .prompt-category {
+        font-size: 0.75rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .prompt-badges {
+        gap: 0.375rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .badge {
+        font-size: 0.6875rem;
+        padding: 0.1875rem 0.4375rem;
+    }
+
+    .prompt-content {
+        margin: 0.625rem 0;
+    }
+
+    .prompt-text {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    .prompt-footer {
+        gap: 0.625rem;
+        margin-top: 0.625rem;
+        padding-top: 0.625rem;
+    }
+
+    .prompt-tags {
+        gap: 0.3125rem;
+    }
+
+    .tag {
+        font-size: 0.6875rem;
+        padding: 0.1875rem 0.4375rem;
+    }
+
+    .copy-btn {
+        padding: 0.5rem 0.875rem;
+        font-size: 0.8125rem;
+        min-width: 90px;
+    }
+
+    .no-results,
+    .loading-state {
+        padding: 1.5rem var(--spacing-sm);
+    }
+
+    .empty-icon {
+        font-size: 2.5rem;
+    }
+}
+
+/* Large Desktop Breakpoint (1400px and above) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .footer,
+    .cta-section,
+    .mobile-menu-toggle,
+    .btn,
+    .hero-cta {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .about-article {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+    /* Uncomment to enable dark mode */
+    /*
+    :root {
+        --text-primary: #f1f5f9;
+        --text-secondary: #cbd5e1;
+        --text-light: #94a3b8;
+
+        --bg-primary: #0f172a;
+        --bg-secondary: #1e293b;
+        --bg-tertiary: #334155;
+
+        --border-color: #334155;
+        --border-light: #475569;
+    }
+
+    .navbar {
+        background: var(--bg-secondary);
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    }
+    */
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #4338ca;
+        --border-color: #64748b;
+    }
+
+    .btn-primary {
+        border: 2px solid currentColor;
+    }
+
+    .category-card,
+    .prompt-card,
+    .benefit,
+    .tool-card {
+        border-width: 2px;
+    }
+}
+
+/* Instructions Grid - Add this to responsive breakpoints */
+@media (max-width: 768px) {
+    .instructions-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .instruction {
+        text-align: center;
+        padding: var(--spacing-md);
+    }
+}
+
+/* Ensure content is readable on all devices */
+@media (max-width: 768px) {
+    .prompt-text {
+        font-size: 0.875rem;
+    }
+
+    .tool-description,
+    .benefit-description,
+    .category-description {
+        font-size: 0.875rem;
+    }
+}
+
+/* Fix overflow issues on mobile */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .generator-wrapper,
+    .content-wrapper,
+    .browse-section {
+        overflow-x: hidden;
+    }
+
+    /* Ensure browse grid doesn't cause horizontal scroll */
+    .browse-grid {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .prompt-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .prompt-text {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* Better spacing for browse page */
+    .filter-bar select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        padding-right: 2.5rem;
+    }
+
+    /* Loading and empty states */
+    .loading-state,
+    .no-results {
+        padding: var(--spacing-lg) var(--spacing-sm);
+        text-align: center;
+    }
+
+    .no-results h3 {
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .no-results p {
+        font-size: 0.9375rem;
+    }
+
+    /* CTA section in browse page */
+    .cta-section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .cta-box {
+        margin: 0 var(--spacing-sm);
+        padding: 1.5rem;
+    }
+
+    .cta-title {
+        font-size: 1.375rem;
+    }
+
+    .cta-description {
+        font-size: 0.9375rem;
+    }
+
+    /* Improved button hover states for mobile */
+    .copy-btn:active {
+        transform: scale(0.98);
+    }
+
+    /* Better card spacing and shadows */
+    .prompt-card {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.2s ease;
+    }
+
+    .prompt-card:active {
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 768px) {
+    .btn,
+    .nav-link,
+    .category-card,
+    .prompt-card {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-select {
+        min-height: 44px;
+    }
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse 350 free AI prompts for Instagram content creation. Find ChatGPT & Claude prompts for captions, reels, hashtags, and more.">
+    <meta name="keywords" content="instagram prompts library, ai prompts database, chatgpt prompts collection">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Browse AI Prompts | Instagram Content Library">
+    <meta property="og:description" content="Browse 350 free AI prompts for Instagram. Filter by category, niche, and tone to find the perfect prompts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://igprompts.netlify.app/browse.html">
+    <meta property="og:site_name" content="AI Prompt Library">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Browse AI Prompts | Instagram Content Library">
+    <meta name="twitter:description" content="Browse 350 free AI prompts for Instagram content creation.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://igprompts.netlify.app/browse.html">
+
+    <title>Browse AI Prompts | Instagram Content Library</title>
+
+    <link rel="stylesheet" href="css/modern-design.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">AI Prompt Library</a>
+                <div class="nav-menu">
+                    <a href="generator.html" class="nav-link" data-i18n="nav.findPrompts">Find Prompts</a>
+                    <a href="browse.html" class="nav-link active" data-i18n="nav.browseAll">Browse All</a>
+                    <a href="blog/index.html" class="nav-link" data-i18n="nav.blog">Blog</a>
+                    <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+                    <a href="generator.html" class="btn btn-primary" data-i18n="nav.getPromptsFree">Get Prompts Free</a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="page-header scroll-reveal">
+        <div class="container">
+            <h1 class="page-title" data-i18n="browse.title">Browse All AI Prompts</h1>
+            <p class="page-subtitle" data-i18n="browse.subtitle">Explore 350 professionally crafted AI prompts for Instagram content creation</p>
+
+            <!-- Filter Options -->
+            <div class="filter-bar">
+                <select id="categoryFilter" class="filter-select" aria-label="Filter prompts by category">
+                    <option value="all" data-i18n="browse.allCategories">All Categories</option>
+                    <option value="caption-ideas" data-i18n="categories.captionIdeas">Caption Ideas</option>
+                    <option value="reel-scripts" data-i18n="categories.reelScripts">Reel Scripts</option>
+                    <option value="hashtag-research" data-i18n="categories.hashtagResearch">Hashtag Research</option>
+                    <option value="bio-generator" data-i18n="categories.bioGenerator">Bio Generator</option>
+                    <option value="hook-ideas" data-i18n="categories.hookIdeas">Hook Ideas</option>
+                    <option value="story-ideas" data-i18n="categories.storyIdeas">Story Ideas</option>
+                    <option value="carousel-content" data-i18n="categories.carouselContent">Carousel Content</option>
+                    <option value="engagement-prompts" data-i18n="categories.engagementPrompts">Engagement Prompts</option>
+                    <option value="content-calendar" data-i18n="categories.contentCalendar">Content Calendar</option>
+                    <option value="trend-analysis" data-i18n="categories.trendAnalysis">Trend Analysis</option>
+                </select>
+                <select id="nicheFilter" class="filter-select" aria-label="Filter prompts by niche">
+                    <option value="all" data-i18n="browse.allNiches">All Niches</option>
+                    <option value="Fashion" data-i18n="niches.fashion">Fashion</option>
+                    <option value="Fitness" data-i18n="niches.fitness">Fitness</option>
+                    <option value="Food" data-i18n="niches.food">Food</option>
+                    <option value="Travel" data-i18n="niches.travel">Travel</option>
+                    <option value="Business" data-i18n="niches.business">Business</option>
+                    <option value="Lifestyle" data-i18n="niches.lifestyle">Lifestyle</option>
+                    <option value="Beauty" data-i18n="niches.beauty">Beauty</option>
+                    <option value="Tech" data-i18n="niches.tech">Tech</option>
+                    <option value="Photography" data-i18n="niches.photography">Photography</option>
+                    <option value="Parenting" data-i18n="niches.parenting">Parenting</option>
+                </select>
+                <select id="toneFilter" class="filter-select" aria-label="Filter prompts by tone and style">
+                    <option value="all" data-i18n="browse.allTones">All Tones & Styles</option>
+                    <option value="Casual" data-i18n="tones.casual">Casual & Friendly</option>
+                    <option value="Professional" data-i18n="tones.professional">Professional</option>
+                    <option value="Funny" data-i18n="tones.funny">Funny & Humorous</option>
+                    <option value="Motivational" data-i18n="tones.motivational">Motivational & Inspirational</option>
+                    <option value="Educational" data-i18n="tones.educational">Educational</option>
+                    <option value="Storytelling" data-i18n="tones.storytelling">Storytelling</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prompts Grid -->
+    <section class="browse-section scroll-reveal">
+        <div class="container">
+            <!-- Info Box -->
+            <div class="browse-info-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem; border-radius: 12px; margin-bottom: 1.5rem; text-align: center;">
+                <div style="font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem;" data-i18n="browse.infoBox">✨ All prompts work with ChatGPT, Claude & Gemini</div>
+                <div style="font-size: 0.875rem; opacity: 0.9;" data-i18n="browse.infoBoxDesc">Simply copy and paste into your preferred AI tool</div>
+            </div>
+
+            <div class="prompts-count">
+                <span id="promptsCount">Showing 350 prompts</span>
+            </div>
+
+            <div id="promptsGrid" class="browse-grid">
+                <!-- Prompts will be loaded here by JavaScript -->
+            </div>
+
+            <!-- Loading State -->
+            <div id="loadingState" class="loading-state">
+                <p data-i18n="browse.loading">Loading prompts...</p>
+            </div>
+
+            <!-- No Results State -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <div class="empty-icon">🔍</div>
+                <h3 data-i18n="browse.noResults">No prompts found</h3>
+                <p data-i18n="browse.noResultsDesc">Try adjusting your filters to see more results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="cta-section scroll-reveal">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-title" data-i18n="browse.howToUseTitle">How to Use These Prompts</h2>
+                <p class="cta-description" data-i18n="browse.howToUseDesc">Simply browse, filter by category, niche, or tone, copy the prompt you like, and paste it into ChatGPT, Claude, or any AI tool. Customize the output to match your unique voice and brand.</p>
+                <a href="about.html" class="btn btn-large btn-primary" data-i18n="browse.learnMore">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title" data-i18n="footer.title">AI Prompt Library</h3>
+                    <p class="footer-description" data-i18n="footer.description">350 free AI prompts for Instagram creators. Works with ChatGPT, Claude, and Gemini.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading" data-i18n="footer.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="generator.html" data-i18n="footer.findPrompts">Find Prompts</a></li>
+                        <li><a href="browse.html" data-i18n="footer.browseAll">Browse All Prompts</a></li>
+                        <li><a href="blog/index.html" data-i18n="nav.blog">Blog</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading" data-i18n="footer.categories">Explore Categories</h4>
+                    <div class="footer-category-dropdown">
+                        <select id="footerCategoryNav" class="footer-select" aria-label="Navigate to category">
+                            <option value="" data-i18n="footer.browseByCategory">Browse by category...</option>
+                            <option value="browse.html?category=caption-ideas" data-i18n="categories.captionIdeas" data-i18n-suffix=" (60)">Caption Ideas (60)</option>
+                            <option value="browse.html?category=reel-scripts" data-i18n="categories.reelScripts" data-i18n-suffix=" (60)">Reel Scripts (60)</option>
+                            <option value="browse.html?category=hook-ideas" data-i18n="categories.hookIdeas" data-i18n-suffix=" (60)">Hook Ideas (60)</option>
+                            <option value="browse.html?category=story-ideas" data-i18n="categories.storyIdeas" data-i18n-suffix=" (60)">Story Ideas (60)</option>
+                            <option value="browse.html?category=bio-generator" data-i18n="categories.bioGenerator" data-i18n-suffix=" (30)">Bio Generator (30)</option>
+                            <option value="browse.html?category=engagement-prompts" data-i18n="categories.engagementPrompts" data-i18n-suffix=" (30)">Engagement Prompts (30)</option>
+                            <option value="browse.html?category=carousel-content" data-i18n="categories.carouselContent" data-i18n-suffix=" (20)">Carousel Content (20)</option>
+                            <option value="browse.html?category=hashtag-research" data-i18n="categories.hashtagResearch" data-i18n-suffix=" (10)">Hashtag Research (10)</option>
+                            <option value="browse.html?category=content-calendar" data-i18n="categories.contentCalendar" data-i18n-suffix=" (10)">Content Calendar (10)</option>
+                            <option value="browse.html?category=trend-analysis" data-i18n="categories.trendAnalysis" data-i18n-suffix=" (10)">Trend Analysis (10)</option>
+                        </select>
+                    </div>
+                    <ul class="footer-links" style="margin-top: 1rem;">
+                        <li><a href="browse.html" data-i18n="footer.viewAll">View All Categories →</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 AI Prompt Library for Instagram. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Navigation Script -->
+    <script>
+        document.getElementById('footerCategoryNav')?.addEventListener('change', function() {
+            if (this.value) {
+                window.location.href = this.value;
+            }
+        });
+    </script>
+
+    <!-- Prompt Card Template -->
+    <template id="promptCardTemplate">
+        <div class="card prompt-card">
+            <div class="prompt-header">
+                <span class="prompt-category"></span>
+            </div>
+            <div class="prompt-badges">
+                <span class="badge niche-badge"></span>
+                <span class="badge tone-badge"></span>
+            </div>
+            <div class="prompt-content">
+                <p class="prompt-text"></p>
+            </div>
+            <div class="prompt-footer">
+                <div class="prompt-tags"></div>
+                <button class="btn btn-small btn-primary copy-btn" data-i18n-key="browse.copy">
+                    <span class="copy-icon">📋</span> <span class="copy-text" data-i18n="browse.copy">Copy</span>
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Theme & Language -->
+    <!-- i18next - Professional Translation Library -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23.7.16/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.2.0/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="js/i18n.js"></script>
+
+    <!-- Smart Animations -->
+    <script src="js/modern-animations.js"></script>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+
+    <!-- Browse Logic -->
+    <script>
+        // Load prompts database
+        let allPrompts = [];
+
+        async function loadPrompts(retryCount = 0) {
+            try {
+                // Add cache-busting parameter to ensure fresh data
+                const response = await fetch('data/prompts.json?v=' + Date.now());
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                if (!data.prompts || !Array.isArray(data.prompts)) {
+                    throw new Error('Invalid data format');
+                }
+
+                allPrompts = data.prompts;
+                console.log(`✓ Loaded ${allPrompts.length} prompts from database`);
+
+                // Check for category filter in URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const categoryFilter = urlParams.get('category');
+
+                let promptsToDisplay = allPrompts;
+
+                if (categoryFilter) {
+                    // Filter prompts by category
+                    promptsToDisplay = allPrompts.filter(p => p.category === categoryFilter);
+                    console.log(`✓ Filtered to category: ${categoryFilter}, found ${promptsToDisplay.length} prompts`);
+
+                    // Update page subtitle to show we're filtering
+                    const subtitle = document.querySelector('.page-subtitle');
+                    if (subtitle && promptsToDisplay.length > 0) {
+                        const categoryName = getCategoryName(categoryFilter);
+                        subtitle.textContent = `Showing all ${categoryName} prompts`;
+                    }
+                }
+
+                displayPrompts(promptsToDisplay);
+                document.getElementById('loadingState').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading prompts:', error);
+
+                // Retry logic - try up to 2 times
+                if (retryCount < 2) {
+                    console.log(`Retrying... (${retryCount + 1}/2)`);
+                    setTimeout(() => loadPrompts(retryCount + 1), 1000);
+                    return;
+                }
+
+                // Show user-friendly error message
+                document.getElementById('loadingState').innerHTML = `
+                    <div style="text-align: center; padding: 2rem;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+                        <h3 style="margin-bottom: 0.5rem;">Unable to Load Prompts</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">We're having trouble loading the prompt library. Please try:</p>
+                        <ul style="text-align: left; max-width: 400px; margin: 0 auto 1rem auto;">
+                            <li>Refreshing this page</li>
+                            <li>Checking your internet connection</li>
+                            <li>Clearing your browser cache</li>
+                        </ul>
+                        <button onclick="location.reload()" class="btn btn-primary" style="margin-top: 1rem;">Retry Now</button>
+                    </div>
+                `;
+            }
+        }
+
+        function displayPrompts(prompts) {
+            const grid = document.getElementById('promptsGrid');
+            const template = document.getElementById('promptCardTemplate');
+            const noResults = document.getElementById('noResults');
+
+            grid.innerHTML = '';
+
+            if (prompts.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+
+            prompts.forEach(prompt => {
+                const card = template.content.cloneNode(true);
+
+                card.querySelector('.prompt-category').textContent = getCategoryName(prompt.category);
+                card.querySelector('.niche-badge').textContent = prompt.niche;
+                card.querySelector('.tone-badge').textContent = prompt.tone;
+                card.querySelector('.prompt-text').textContent = prompt.prompt;
+
+                // Add tags
+                const tagsContainer = card.querySelector('.prompt-tags');
+                prompt.tags.slice(0, 3).forEach(tag => {
+                    const tagSpan = document.createElement('span');
+                    tagSpan.className = 'tag';
+                    tagSpan.textContent = `#${tag}`;
+                    tagsContainer.appendChild(tagSpan);
+                });
+
+                // Copy button functionality
+                const copyBtn = card.querySelector('.copy-btn');
+                copyBtn.addEventListener('click', () => copyToClipboard(prompt.prompt, copyBtn));
+
+                grid.appendChild(card);
+            });
+
+            // Update prompts count with translation support
+            const showingText = window.translations && window.currentLanguage
+                ? window.translations[window.currentLanguage].browse.showing
+                : 'Showing';
+            const promptsText = window.translations && window.currentLanguage
+                ? window.translations[window.currentLanguage].browse.prompts
+                : 'prompts';
+            document.getElementById('promptsCount').textContent = `${showingText} ${prompts.length} ${promptsText}`;
+        }
+
+        function getCategoryName(categoryId) {
+            // Use translations if available
+            if (window.translations && window.currentLanguage) {
+                const categoryMap = {
+                    'caption-ideas': 'captionIdeas',
+                    'reel-scripts': 'reelScripts',
+                    'hashtag-research': 'hashtagResearch',
+                    'bio-generator': 'bioGenerator',
+                    'hook-ideas': 'hookIdeas',
+                    'story-ideas': 'storyIdeas',
+                    'carousel-content': 'carouselContent',
+                    'engagement-prompts': 'engagementPrompts',
+                    'content-calendar': 'contentCalendar',
+                    'trend-analysis': 'trendAnalysis'
+                };
+                const translationKey = categoryMap[categoryId];
+                if (translationKey && window.translations[window.currentLanguage].categories[translationKey]) {
+                    return window.translations[window.currentLanguage].categories[translationKey];
+                }
+            }
+
+            // Fallback to English
+            const names = {
+                'caption-ideas': 'Caption Ideas',
+                'reel-scripts': 'Reel Scripts',
+                'hashtag-research': 'Hashtag Research',
+                'bio-generator': 'Bio Generator',
+                'hook-ideas': 'Hook Ideas',
+                'story-ideas': 'Story Ideas',
+                'carousel-content': 'Carousel Content',
+                'engagement-prompts': 'Engagement Prompts',
+                'content-calendar': 'Content Calendar',
+                'trend-analysis': 'Trend Analysis'
+            };
+            return names[categoryId] || categoryId;
+        }
+
+        function copyToClipboard(text, button) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalHTML = button.innerHTML;
+                // Get translated text for "Copied!" if translations are available
+                const copiedText = window.translations && window.currentLanguage
+                    ? window.translations[window.currentLanguage].browse.copied
+                    : 'Copied!';
+                button.innerHTML = `<span class="copy-icon">✓</span> <span class="copy-text">${copiedText}</span>`;
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                    button.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Filter functionality
+        document.getElementById('categoryFilter').addEventListener('change', filterPrompts);
+        document.getElementById('nicheFilter').addEventListener('change', filterPrompts);
+        document.getElementById('toneFilter').addEventListener('change', filterPrompts);
+
+        function filterPrompts() {
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const nicheFilter = document.getElementById('nicheFilter').value;
+            const toneFilter = document.getElementById('toneFilter').value;
+
+            let filtered = allPrompts;
+
+            if (categoryFilter !== 'all') {
+                filtered = filtered.filter(p => p.category === categoryFilter);
+            }
+
+            if (nicheFilter !== 'all') {
+                filtered = filtered.filter(p => p.niche === nicheFilter);
+            }
+
+            if (toneFilter !== 'all') {
+                filtered = filtered.filter(p => p.tone === toneFilter);
+            }
+
+            displayPrompts(filtered);
+        }
+
+        // Check URL parameters for pre-filtering
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoryParam = urlParams.get('category');
+        if (categoryParam) {
+            document.getElementById('categoryFilter').value = categoryParam;
+        }
+
+        // Initialize
+        loadPrompts();
+    </script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JVV9NMQ838"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JVV9NMQ838');
+    </script>
+</body>
+</html>
