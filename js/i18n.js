@@ -271,10 +271,17 @@ window.getCurrentLanguage = function() {
 };
 
 // Initialize when DOM is ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeI18n);
-} else {
+function safeInit() {
+    console.log('🔵 safeInit() called, readyState:', document.readyState);
     initializeI18n();
+}
+
+if (document.readyState === 'loading') {
+    console.log('🔵 Document still loading, waiting for DOMContentLoaded...');
+    document.addEventListener('DOMContentLoaded', safeInit);
+} else {
+    console.log('🔵 Document already loaded, initializing now...');
+    safeInit();
 }
 
 // Re-translate when navigating back/forward
