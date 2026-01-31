@@ -15,13 +15,21 @@ const languages = {
 // Initialize i18next
 async function initializeI18n() {
     try {
-        // Load translations
-        const translationsResponse = await fetch('js/translations.json').catch(() =>
-            fetch('../js/translations.json')
-        );
+        // Load translations - try multiple paths
+        let translationsResponse;
+
+        try {
+            // Try root-relative path first (for pages in root like index.html)
+            translationsResponse = await fetch('js/translations.json');
+            console.log('✅ Loaded translations from: js/translations.json');
+        } catch (e) {
+            // Try parent-relative path (for pages in subdirectories like blog/)
+            translationsResponse = await fetch('../js/translations.json');
+            console.log('✅ Loaded translations from: ../js/translations.json');
+        }
 
         if (!translationsResponse.ok) {
-            throw new Error('Failed to load translations');
+            throw new Error(`Failed to load translations: ${translationsResponse.status}`);
         }
 
         const translations = await translationsResponse.json();
@@ -78,6 +86,10 @@ async function initializeI18n() {
 
     } catch (error) {
         console.error('❌ Failed to initialize i18next:', error);
+        console.error('Error details:', error.message, error.stack);
+
+        // Still create a basic language selector even if translations fail
+        createLanguageSelector();
     }
 }
 
