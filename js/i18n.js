@@ -188,33 +188,8 @@ function createLanguageSelector() {
     container.appendChild(toggle);
     container.appendChild(dropdown);
 
-    // Add to nav controls
-    let navControls = document.querySelector('.nav-controls');
-    if (!navControls) {
-        navControls = document.createElement('div');
-        navControls.className = 'nav-controls';
-
-        // Find insertion point (before "Get Prompts Free" button)
-        const allLinks = Array.from(navMenu.children);
-        let insertIndex = allLinks.length;
-
-        for (let i = 0; i < allLinks.length; i++) {
-            if (allLinks[i].classList.contains('btn') ||
-                allLinks[i].classList.contains('btn-primary') ||
-                allLinks[i].textContent.includes('Prompts')) {
-                insertIndex = i;
-                break;
-            }
-        }
-
-        if (insertIndex < allLinks.length) {
-            navMenu.insertBefore(navControls, allLinks[insertIndex]);
-        } else {
-            navMenu.appendChild(navControls);
-        }
-    }
-
-    navControls.appendChild(container);
+    // Add to nav menu - append at the end (right side)
+    navMenu.appendChild(container);
     console.log('✅ Language selector created');
 }
 
