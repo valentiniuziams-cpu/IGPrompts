@@ -61,24 +61,6 @@
         margin-top: var(--spacing-sm);
     }
 
-    /* Language Selector on Mobile - visible in navbar */
-    .language-selector {
-        order: 15; /* Between nav-menu and hamburger */
-        margin-left: auto; /* Push to right */
-        margin-right: var(--spacing-sm);
-    }
-
-    .language-toggle {
-        min-width: auto;
-        padding: 0.5rem 0.75rem;
-    }
-
-    .language-dropdown {
-        right: 0;
-        left: auto;
-        min-width: 200px;
-    }
-
     .mobile-menu-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }

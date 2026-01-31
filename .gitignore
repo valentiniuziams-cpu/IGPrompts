@@ -38,5 +38,17 @@ build/
 
 # Backup files
 *.bak
+*.backup
 backup/
 nul
+
+# Claude Code files
+.claude/
+
+# Screenshots and test images
+*.png
+*.jpg
+*.jpeg
+line-nav.png
+1.png
+2.png

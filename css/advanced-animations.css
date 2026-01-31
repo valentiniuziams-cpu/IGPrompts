@@ -1,0 +1,890 @@
+/* ===================================
+   ADVANCED ANIMATIONS & INTERACTIONS
+   Modern 2025-2026 Web Design Trends
+   Performance-optimized, GPU-accelerated
+   =================================== */
+
+/* ===================================
+   ACCESSIBILITY: Respect Reduced Motion
+   =================================== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ===================================
+   CUSTOM EASING FUNCTIONS
+   =================================== */
+:root {
+    --ease-smooth: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-in-out: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+/* ===================================
+   BUTTON RIPPLE EFFECT
+   =================================== */
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(0);
+    animation: ripple 600ms var(--ease-standard);
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* ===================================
+   MAGNETIC BUTTON EFFECT
+   =================================== */
+.btn-primary {
+    transition: all 300ms var(--ease-smooth);
+}
+
+.btn-primary.magnetic {
+    will-change: transform;
+}
+
+/* ===================================
+   ENHANCED CARD HOVER EFFECTS
+   =================================== */
+.category-card,
+.benefit-card,
+.prompt-card {
+    position: relative;
+    transition: all 300ms var(--ease-smooth);
+    will-change: transform;
+}
+
+/* 3D Tilt Effect */
+.category-card.tilt-active,
+.benefit-card.tilt-active,
+.prompt-card.tilt-active {
+    transform-style: preserve-3d;
+}
+
+/* Glow Effect on Hover */
+.category-card::after,
+.benefit-card::after,
+.prompt-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    opacity: 0;
+    background: radial-gradient(
+        600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+        rgba(99, 102, 241, 0.15),
+        transparent 40%
+    );
+    transition: opacity 300ms var(--ease-smooth);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.category-card:hover::after,
+.benefit-card:hover::after,
+.prompt-card:hover::after {
+    opacity: 1;
+}
+
+/* ===================================
+   FLOATING ANIMATION FOR ICONS
+   =================================== */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.category-icon {
+    animation: float 3s ease-in-out infinite;
+    will-change: transform;
+}
+
+/* Stagger floating animations */
+.category-card:nth-child(1) .category-icon { animation-delay: 0s; }
+.category-card:nth-child(2) .category-icon { animation-delay: 0.3s; }
+.category-card:nth-child(3) .category-icon { animation-delay: 0.6s; }
+.category-card:nth-child(4) .category-icon { animation-delay: 0.9s; }
+.category-card:nth-child(5) .category-icon { animation-delay: 1.2s; }
+.category-card:nth-child(6) .category-icon { animation-delay: 1.5s; }
+.category-card:nth-child(7) .category-icon { animation-delay: 1.8s; }
+.category-card:nth-child(8) .category-icon { animation-delay: 2.1s; }
+.category-card:nth-child(9) .category-icon { animation-delay: 2.4s; }
+.category-card:nth-child(10) .category-icon { animation-delay: 2.7s; }
+
+/* ===================================
+   GLOW PULSE ON PRIMARY ELEMENTS
+   =================================== */
+@keyframes glow-pulse {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(99, 102, 241, 0.3),
+                    0 0 10px rgba(99, 102, 241, 0.2),
+                    0 0 15px rgba(99, 102, 241, 0.1);
+    }
+    50% {
+        box-shadow: 0 0 10px rgba(99, 102, 241, 0.5),
+                    0 0 20px rgba(99, 102, 241, 0.3),
+                    0 0 30px rgba(99, 102, 241, 0.2);
+    }
+}
+
+.btn-primary.pulse-glow {
+    animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* ===================================
+   HERO TITLE ANIMATION
+   =================================== */
+.hero-title {
+    overflow: hidden;
+}
+
+.hero-title-word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: word-fade-in 800ms var(--ease-smooth) forwards;
+}
+
+@keyframes word-fade-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger word animations */
+.hero-title-word:nth-child(1) { animation-delay: 100ms; }
+.hero-title-word:nth-child(2) { animation-delay: 200ms; }
+.hero-title-word:nth-child(3) { animation-delay: 300ms; }
+.hero-title-word:nth-child(4) { animation-delay: 400ms; }
+.hero-title-word:nth-child(5) { animation-delay: 500ms; }
+.hero-title-word:nth-child(6) { animation-delay: 600ms; }
+.hero-title-word:nth-child(7) { animation-delay: 700ms; }
+.hero-title-word:nth-child(8) { animation-delay: 800ms; }
+.hero-title-word:nth-child(9) { animation-delay: 900ms; }
+.hero-title-word:nth-child(10) { animation-delay: 1000ms; }
+
+/* ===================================
+   STATS COUNTER ANIMATION
+   =================================== */
+.stat-number {
+    transition: transform 300ms var(--ease-smooth);
+}
+
+.stat-number.counting {
+    animation: stat-pop 500ms var(--ease-bounce);
+}
+
+@keyframes stat-pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ===================================
+   GRADIENT TEXT EFFECT
+   =================================== */
+.section-title.gradient-text {
+    background: linear-gradient(
+        90deg,
+        #667eea 0%,
+        #764ba2 25%,
+        #f093fb 50%,
+        #764ba2 75%,
+        #667eea 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-shift 4s linear infinite;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+/* ===================================
+   STAGGERED CARD REVEAL
+   =================================== */
+/* Only apply to static cards (not dynamically created ones) */
+.category-card,
+.benefit-card {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 600ms var(--ease-smooth),
+                transform 600ms var(--ease-smooth);
+}
+
+.category-card.reveal,
+.benefit-card.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Prompt cards are dynamically created, so use immediate fade-in */
+.prompt-card {
+    opacity: 0;
+    animation: prompt-fade-in 400ms var(--ease-smooth) forwards;
+}
+
+@keyframes prompt-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger delays for category cards */
+.category-card:nth-child(1) { transition-delay: 0ms; }
+.category-card:nth-child(2) { transition-delay: 50ms; }
+.category-card:nth-child(3) { transition-delay: 100ms; }
+.category-card:nth-child(4) { transition-delay: 150ms; }
+.category-card:nth-child(5) { transition-delay: 200ms; }
+.category-card:nth-child(6) { transition-delay: 250ms; }
+.category-card:nth-child(7) { transition-delay: 300ms; }
+.category-card:nth-child(8) { transition-delay: 350ms; }
+.category-card:nth-child(9) { transition-delay: 400ms; }
+.category-card:nth-child(10) { transition-delay: 450ms; }
+
+/* Stagger delays for prompt cards (dynamically created) */
+.prompt-card:nth-child(1) { animation-delay: 0ms; }
+.prompt-card:nth-child(2) { animation-delay: 30ms; }
+.prompt-card:nth-child(3) { animation-delay: 60ms; }
+.prompt-card:nth-child(4) { animation-delay: 90ms; }
+.prompt-card:nth-child(5) { animation-delay: 120ms; }
+.prompt-card:nth-child(6) { animation-delay: 150ms; }
+.prompt-card:nth-child(7) { animation-delay: 180ms; }
+.prompt-card:nth-child(8) { animation-delay: 210ms; }
+.prompt-card:nth-child(9) { animation-delay: 240ms; }
+.prompt-card:nth-child(10) { animation-delay: 270ms; }
+.prompt-card:nth-child(11) { animation-delay: 300ms; }
+.prompt-card:nth-child(12) { animation-delay: 330ms; }
+.prompt-card:nth-child(n+13) { animation-delay: 360ms; }
+
+/* ===================================
+   PROGRESS INDICATOR
+   =================================== */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    z-index: 9999;
+    transition: width 100ms linear;
+}
+
+/* ===================================
+   SKELETON LOADING ANIMATION
+   =================================== */
+.skeleton {
+    background: linear-gradient(
+        90deg,
+        #f0f0f0 25%,
+        #e0e0e0 50%,
+        #f0f0f0 75%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.5s ease-in-out infinite;
+    border-radius: 8px;
+}
+
+@keyframes skeleton-shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+.skeleton-card {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.skeleton-text {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.skeleton-text.short {
+    width: 60%;
+}
+
+/* ===================================
+   PARALLAX HERO ELEMENTS
+   =================================== */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 70%
+    );
+    animation: hero-float 20s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes hero-float {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(10%, 10%) scale(1.1);
+    }
+}
+
+/* ===================================
+   SMOOTH PAGE TRANSITIONS
+   =================================== */
+.page-transition {
+    animation: page-fade-in 600ms var(--ease-smooth);
+}
+
+@keyframes page-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===================================
+   CURSOR TRAIL EFFECT (Hero Section Only)
+   =================================== */
+.cursor-trail {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(99, 102, 241, 0.5);
+    pointer-events: none;
+    z-index: 9999;
+    animation: trail-fade 600ms var(--ease-standard) forwards;
+}
+
+@keyframes trail-fade {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* ===================================
+   STEP NUMBER ANIMATION
+   =================================== */
+.step-number {
+    transition: all 300ms var(--ease-bounce);
+}
+
+.step:hover .step-number {
+    transform: scale(1.15) rotate(5deg);
+    box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
+}
+
+/* ===================================
+   SCROLL REVEAL ANIMATIONS
+   =================================== */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 600ms var(--ease-smooth),
+                transform 600ms var(--ease-smooth);
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===================================
+   ENHANCED NAVBAR SCROLL EFFECT
+   =================================== */
+.navbar {
+    transition: all 300ms var(--ease-smooth);
+}
+
+.navbar.scrolled {
+    transform: translateY(-2px);
+}
+
+/* ===================================
+   ANIMATED UNDERLINE FOR NAV LINKS
+   =================================== */
+.nav-link {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    transform: translateX(-100%);
+    transition: transform 300ms var(--ease-smooth);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    transform: translateX(0);
+}
+
+/* Footer links underline animation */
+.footer-links a {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.7);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms var(--ease-smooth);
+}
+
+.footer-links a:hover::after {
+    transform: scaleX(1);
+}
+
+/* ===================================
+   PERFORMANCE OPTIMIZATIONS
+   =================================== */
+/* Use GPU acceleration for animated elements */
+.category-card,
+.benefit-card,
+.prompt-card,
+.btn,
+.stat-number,
+.category-icon {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* Contain layout changes */
+.card {
+    contain: layout style;
+}
+
+/* ===================================
+   LOADING STATES
+   =================================== */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(99, 102, 241, 0.3);
+    border-top-color: #6366f1;
+    border-radius: 50%;
+    animation: spinner-rotate 800ms linear infinite;
+}
+
+@keyframes spinner-rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ===================================
+   MICRO-INTERACTIONS
+   =================================== */
+/* Button press effect */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Card tap feedback */
+.card:active {
+    transform: scale(0.99);
+}
+
+/* Input focus glow */
+.form-select:focus {
+    animation: input-glow 300ms var(--ease-smooth);
+}
+
+@keyframes input-glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    }
+}
+
+/* ===================================
+   FADE IN ON LOAD
+   =================================== */
+body {
+    animation: body-fade-in 500ms var(--ease-smooth);
+}
+
+@keyframes body-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ===================================
+   WOW ANIMATED FLOATING BUTTON
+   =================================== */
+.wow-fab-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    opacity: 0;
+    transform: scale(0) rotate(-180deg);
+    animation: wow-fab-appear 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s forwards;
+    transition: all 400ms var(--ease-smooth);
+}
+
+@keyframes wow-fab-appear {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(-180deg);
+    }
+    60% {
+        transform: scale(1.15) rotate(10deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.wow-fab-button {
+    position: relative;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background-size: 200% 200%;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow:
+        0 10px 40px rgba(102, 126, 234, 0.4),
+        0 0 0 0 rgba(102, 126, 234, 0.5);
+    animation: gradient-shift 3s ease infinite, pulse-shadow 2s ease-in-out infinite;
+    transition: all 300ms var(--ease-smooth);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@keyframes pulse-shadow {
+    0%, 100% {
+        box-shadow:
+            0 10px 40px rgba(102, 126, 234, 0.4),
+            0 0 0 0 rgba(102, 126, 234, 0.5);
+    }
+    50% {
+        box-shadow:
+            0 15px 60px rgba(102, 126, 234, 0.6),
+            0 0 0 10px rgba(102, 126, 234, 0);
+    }
+}
+
+.wow-fab-button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow:
+        0 20px 60px rgba(102, 126, 234, 0.6),
+        0 0 30px rgba(240, 147, 251, 0.4);
+}
+
+.wow-fab-button:active {
+    transform: translateY(-2px) scale(1.02);
+}
+
+/* Button Content */
+.fab-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fab-icon {
+    font-size: 1.5rem;
+    animation: icon-bounce 2s ease-in-out infinite;
+}
+
+@keyframes icon-bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-3px) rotate(-10deg);
+    }
+    75% {
+        transform: translateY(-3px) rotate(10deg);
+    }
+}
+
+.fab-text {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Animated Particles */
+.fab-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: particle-float 3s ease-in-out infinite;
+}
+
+.particle:nth-child(1) {
+    top: 20%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.particle:nth-child(2) {
+    top: 40%;
+    left: 80%;
+    animation-delay: 0.5s;
+}
+
+.particle:nth-child(3) {
+    top: 60%;
+    left: 20%;
+    animation-delay: 1s;
+}
+
+.particle:nth-child(4) {
+    top: 80%;
+    left: 70%;
+    animation-delay: 1.5s;
+}
+
+.particle:nth-child(5) {
+    top: 30%;
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.particle:nth-child(6) {
+    top: 70%;
+    left: 40%;
+    animation-delay: 2.5s;
+}
+
+@keyframes particle-float {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-20px) scale(1.2);
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+}
+
+/* Energy Waves */
+.energy-wave {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(102, 126, 234, 0.6);
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: energy-pulse 2s ease-out infinite;
+}
+
+.wave-2 {
+    animation-delay: 0.6s;
+}
+
+.wave-3 {
+    animation-delay: 1.2s;
+}
+
+@keyframes energy-pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Shine Effect */
+.shine-effect {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 70%
+    );
+    transform: rotate(45deg);
+    animation: shine-sweep 3s ease-in-out infinite;
+}
+
+@keyframes shine-sweep {
+    0% {
+        transform: translateX(-100%) rotate(45deg);
+    }
+    50% {
+        transform: translateX(100%) rotate(45deg);
+    }
+    100% {
+        transform: translateX(100%) rotate(45deg);
+    }
+}
+
+/* Hover state - enhance particles */
+.wow-fab-button:hover .particle {
+    animation-duration: 2s;
+}
+
+.wow-fab-button:hover .fab-icon {
+    animation-duration: 1s;
+    transform: scale(1.2);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .wow-fab-container {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .wow-fab-button {
+        padding: 0.875rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .fab-icon {
+        font-size: 1.25rem;
+    }
+
+    .fab-text {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wow-fab-button {
+        padding: 0.75rem 1rem;
+        font-size: 0.75rem;
+    }
+
+    .fab-text {
+        font-size: 0.75rem;
+        letter-spacing: 0.3px;
+    }
+
+    .fab-icon {
+        font-size: 1.25rem;
+    }
+
+    .fab-content {
+        gap: 0.35rem;
+    }
+}

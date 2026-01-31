@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Showcase - Test Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/advanced-animations.css">
+    <style>
+        .showcase-section {
+            padding: 4rem 0;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .demo-box {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            margin: 1rem 0;
+        }
+        .animation-label {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">Animation Showcase</a>
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Modern Animations Showcase Test Page</h1>
+                <p class="hero-subtitle">Interactive demonstration of all implemented animations and effects</p>
+                <div class="hero-cta">
+                    <a href="#magnetic" class="btn btn-large btn-primary">Magnetic Button Test</a>
+                    <a href="#cards" class="btn btn-large btn-secondary">Card Animations</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">350</span>
+                        <span class="stat-label">Total Prompts</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free Forever</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button Animations -->
+    <section class="showcase-section" id="magnetic">
+        <div class="container">
+            <h2 class="section-title gradient-text">Button Animations</h2>
+            <p class="section-subtitle">Hover over buttons to see magnetic effect, click for ripple</p>
+
+            <div class="demo-box">
+                <div class="animation-label">Magnetic Buttons + Ripple Effect</div>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                    <button class="btn btn-primary">Primary Button</button>
+                    <button class="btn btn-primary btn-large">Large Primary</button>
+                    <button class="btn btn-secondary">Secondary Button</button>
+                    <button class="btn btn-primary pulse-glow">Pulsing Glow</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Animations -->
+    <section class="showcase-section" id="cards">
+        <div class="container">
+            <h2 class="section-title">Card Hover Effects</h2>
+            <p class="section-subtitle">Hover over cards to see 3D tilt and glow effects</p>
+
+            <div class="test-grid">
+                <div class="card category-card">
+                    <span class="category-icon">✍️</span>
+                    <h3 class="category-title">Caption Ideas</h3>
+                    <p class="category-description">Engaging captions that drive likes and comments</p>
+                    <span class="category-count">60 prompts</span>
+                </div>
+                <div class="card category-card">
+                    <span class="category-icon">🎬</span>
+                    <h3 class="category-title">Reel Scripts</h3>
+                    <p class="category-description">Video content ideas and scripts</p>
+                    <span class="category-count">60 prompts</span>
+                </div>
+                <div class="card category-card">
+                    <span class="category-icon">#️⃣</span>
+                    <h3 class="category-title">Hashtag Research</h3>
+                    <p class="category-description">Find the best hashtags for your niche</p>
+                    <span class="category-count">10 prompts</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefit Cards -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Benefit Cards</h2>
+            <p class="section-subtitle">These cards also have tilt and glow effects</p>
+
+            <div class="test-grid">
+                <div class="benefit-card card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3 class="benefit-title">Save Hours of Time</h3>
+                    <p class="benefit-text">Stop staring at blank screens. Get instant inspiration.</p>
+                </div>
+                <div class="benefit-card card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3 class="benefit-title">Tailored to Your Niche</h3>
+                    <p class="benefit-text">Filter by 10 niches and 6 tone styles.</p>
+                </div>
+                <div class="benefit-card card">
+                    <div class="benefit-icon">✨</div>
+                    <h3 class="benefit-title">Expertly Crafted</h3>
+                    <p class="benefit-text">Hand-crafted by content strategists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Animations -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Text Animations</h2>
+            <p class="section-subtitle">Gradient text effect with animation</p>
+
+            <div class="demo-box">
+                <div class="animation-label">Gradient Animated Text</div>
+                <h2 class="section-title gradient-text" style="margin-bottom: 0;">This Text Has Animated Gradient</h2>
+            </div>
+
+            <div class="demo-box">
+                <div class="animation-label">Hero Title Word Animation</div>
+                <p>The hero title at the top animates word by word on page load</p>
+            </div>
+
+            <div class="demo-box">
+                <div class="animation-label">Stats Counter Animation</div>
+                <p>The stats in the hero section count up when scrolled into view</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Icons -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title">Floating Icon Animation</h2>
+            <p class="section-subtitle">Category icons float gently up and down</p>
+
+            <div style="display: flex; gap: 2rem; justify-content: center; font-size: 3rem;">
+                <span class="category-icon">✍️</span>
+                <span class="category-icon">🎬</span>
+                <span class="category-icon">#️⃣</span>
+                <span class="category-icon">👤</span>
+                <span class="category-icon">🎣</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step Animation -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Step Number Animation</h2>
+            <p class="section-subtitle">Hover over steps to see number scale and rotate</p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Choose Category</h3>
+                    <p class="step-description">Select from multiple content types</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Filter by Niche</h3>
+                    <p class="step-description">Pick your specific niche and tone</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Copy & Use</h3>
+                    <p class="step-description">Paste into your AI tool</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading States -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title">Loading States</h2>
+            <p class="section-subtitle">Skeleton shimmer and spinner animations</p>
+
+            <div class="demo-box">
+                <div class="animation-label">Skeleton Loading</div>
+                <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-text"></div>
+                <div class="skeleton skeleton-text short"></div>
+            </div>
+
+            <div class="demo-box">
+                <div class="animation-label">Loading Spinner</div>
+                <div class="loading-spinner"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll Reveal -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Scroll Reveal Animations</h2>
+            <p class="section-subtitle">All sections fade in as you scroll down the page</p>
+
+            <div class="demo-box">
+                <div class="animation-label">Features Demonstrated</div>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✅ Staggered card reveal (50ms delay each)</li>
+                    <li>✅ Section fade-in on scroll</li>
+                    <li>✅ Intersection Observer for performance</li>
+                    <li>✅ Smooth easing functions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Info -->
+    <section class="showcase-section">
+        <div class="container">
+            <h2 class="section-title">Performance & Accessibility</h2>
+            <p class="section-subtitle">All animations are optimized and accessible</p>
+
+            <div class="test-grid">
+                <div class="demo-box">
+                    <div class="animation-label">GPU Accelerated</div>
+                    <p>Uses transform and opacity for 60fps performance</p>
+                </div>
+                <div class="demo-box">
+                    <div class="animation-label">Reduced Motion Support</div>
+                    <p>Respects prefers-reduced-motion user preference</p>
+                </div>
+                <div class="demo-box">
+                    <div class="animation-label">RequestAnimationFrame</div>
+                    <p>Efficient scroll handling with RAF</p>
+                </div>
+            </div>
+
+            <div class="demo-box" style="margin-top: 2rem;">
+                <div class="animation-label">Console Messages</div>
+                <p>Open browser console to see initialization messages:</p>
+                <ul style="margin-top: 1rem;">
+                    <li>✨ Subtle animations (legacy mode - modern interactions active)</li>
+                    <li>🎨 Initializing modern interactions...</li>
+                    <li>✨ Modern interactions initialized successfully!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Animation Showcase</h3>
+                    <p class="footer-description">Test page for modern web animations and interactions</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Prompt Library - Animation Showcase</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/subtle-animations.js"></script>
+    <script src="js/modern-interactions.js"></script>
+</body>
+</html>
