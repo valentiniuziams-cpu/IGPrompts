@@ -45,6 +45,29 @@
         margin-top: var(--spacing-sm);
     }
 
+    /* Language Selector on Mobile */
+    .nav-controls {
+        width: 100%;
+        margin-top: var(--spacing-sm);
+        padding-top: var(--spacing-sm);
+        border-top: 1px solid var(--border-light);
+    }
+
+    .language-selector {
+        width: 100%;
+    }
+
+    .language-toggle {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .language-dropdown {
+        right: auto;
+        left: 0;
+        width: 100%;
+    }
+
     .mobile-menu-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
