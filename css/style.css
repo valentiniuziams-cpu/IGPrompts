@@ -1230,3 +1230,144 @@ ul, ol {
 .mb-lg {
     margin-bottom: var(--spacing-lg);
 }
+
+/* ===================================
+   Subtle Animations & Improvements
+   =================================== */
+
+/* Fade-in animation for page load */
+body {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Smooth hover for all links */
+a:not(.btn) {
+    position: relative;
+    transition: color var(--transition-base);
+}
+
+a:not(.btn):hover {
+    color: var(--primary-color);
+}
+
+/* Enhanced card hover effects */
+.category-card,
+.prompt-card,
+.benefit-card {
+    transition: all var(--transition-base);
+}
+
+.category-card:hover,
+.prompt-card:hover,
+.benefit-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+/* Smooth button interactions */
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Improved focus states for accessibility */
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+input,
+select,
+textarea {
+    transition: all var(--transition-base);
+}
+
+/* Navbar shadow on scroll */
+.navbar {
+    transition: box-shadow var(--transition-base);
+}
+
+.navbar:hover {
+    box-shadow: var(--shadow-md);
+}
+
+/* Subtle scale on icon hover */
+.category-icon,
+.benefit-icon {
+    display: inline-block;
+    transition: transform var(--transition-base);
+}
+
+.category-card:hover .category-icon,
+.benefit-card:hover .benefit-icon {
+    transform: scale(1.1);
+}
+
+/* Improved stat number animation */
+.stat-number {
+    display: inline-block;
+    transition: transform var(--transition-base);
+}
+
+.stat:hover .stat-number {
+    transform: scale(1.05);
+}
+
+/* Enhanced CTA section */
+.cta-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    animation: subtleShine 8s ease-in-out infinite;
+}
+
+@keyframes subtleShine {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-30%, -30%);
+    }
+}
