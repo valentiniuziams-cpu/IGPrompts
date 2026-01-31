@@ -31,7 +31,8 @@
       "Bash(timeout:*)",
       "WebFetch(domain:stripe.com)",
       "WebFetch(domain:linear.app)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(del \"css\\\\animations.css\" \"css\\\\advanced-animations.css\" \"css\\\\modern-design.css\" \"css\\\\theme.css\")"
     ]
   }
 }
