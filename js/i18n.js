@@ -147,8 +147,22 @@ function createLanguageSelector() {
         return;
     }
 
-    const currentLang = i18next.language.split('-')[0]; // Handle 'en-US' -> 'en'
+    // Get current language - fallback to 'en' if i18next not initialized
+    let currentLang = 'en';
+    try {
+        if (typeof i18next !== 'undefined' && i18next.language) {
+            currentLang = i18next.language.split('-')[0]; // Handle 'en-US' -> 'en'
+        } else {
+            // Try to get from localStorage
+            const stored = localStorage.getItem('i18nextLng');
+            if (stored) currentLang = stored.split('-')[0];
+        }
+    } catch (e) {
+        console.warn('⚠️ Could not determine current language, defaulting to en');
+    }
+
     const currentLangData = languages[currentLang] || languages.en;
+    console.log('🌍 Current language:', currentLang);
 
     // Create container
     const container = document.createElement('div');
@@ -185,7 +199,16 @@ function createLanguageSelector() {
 
         option.addEventListener('click', async (e) => {
             e.stopPropagation();
-            await i18next.changeLanguage(code);
+
+            // Change language
+            if (typeof i18next !== 'undefined' && i18next.changeLanguage) {
+                await i18next.changeLanguage(code);
+            } else {
+                // Fallback: just store preference and reload
+                localStorage.setItem('i18nextLng', code);
+                window.location.reload();
+            }
+
             dropdown.classList.remove('active');
             toggle.classList.remove('active');
         });
