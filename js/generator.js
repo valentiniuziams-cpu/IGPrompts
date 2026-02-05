@@ -505,10 +505,10 @@ function createPromptElement(prompt, index) {
     div.innerHTML = `
         <div class="prompt-header" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
             <div>
-                <span style="font-weight: 600; color: var(--primary-color); font-size: 0.875rem;">${categoryName}</span>
+                <span style="font-weight: 600; color: var(--primary-color); font-size: 0.875rem;">${CATEGORY_EMOJIS[prompt.category] || ''} ${categoryName}</span>
                 <div style="display: flex; gap: 8px; margin-top: 4px;">
-                    <span class="badge niche-badge" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: var(--bg-tertiary); color: var(--text-secondary);">${capitalizeFirst(prompt.niche)}</span>
-                    <span class="badge tone-badge" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: var(--primary-light); color: white;">${capitalizeFirst(prompt.tone)}</span>
+                    <span class="badge niche-badge" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: var(--bg-tertiary); color: var(--text-secondary);">${NICHE_EMOJIS[prompt.niche] || ''} ${capitalizeFirst(prompt.niche)}</span>
+                    <span class="badge tone-badge" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: var(--primary-light); color: white;">${TONE_EMOJIS[prompt.tone] || ''} ${capitalizeFirst(prompt.tone)}</span>
                 </div>
             </div>
         </div>
@@ -547,6 +547,41 @@ function getCategoryName(categoryId) {
     };
     return names[categoryId] || categoryId;
 }
+
+const CATEGORY_EMOJIS = {
+    'caption-ideas': '✍️',
+    'reel-scripts': '🎬',
+    'hashtag-research': '#️⃣',
+    'bio-generator': '👤',
+    'hook-ideas': '🎣',
+    'story-ideas': '📱',
+    'carousel-content': '📊',
+    'engagement-prompts': '💬',
+    'content-calendar': '📅',
+    'trend-analysis': '📈'
+};
+
+const NICHE_EMOJIS = {
+    'Fashion': '👗',
+    'Fitness': '💪',
+    'Food': '🍕',
+    'Travel': '✈️',
+    'Business': '💼',
+    'Lifestyle': '🌟',
+    'Beauty': '💄',
+    'Tech': '💻',
+    'Photography': '📸',
+    'Parenting': '👶'
+};
+
+const TONE_EMOJIS = {
+    'Casual': '😊',
+    'Professional': '👔',
+    'Funny': '😂',
+    'Motivational': '🔥',
+    'Educational': '📚',
+    'Storytelling': '📖'
+};
 
 function capitalizeFirst(str) {
     if (!str) return '';

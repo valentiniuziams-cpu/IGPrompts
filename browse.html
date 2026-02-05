@@ -60,38 +60,38 @@
             <div class="filter-bar">
                 <select id="categoryFilter" class="filter-select" aria-label="Filter prompts by category">
                     <option value="all">All Categories</option>
-                    <option value="caption-ideas">Caption Ideas</option>
-                    <option value="reel-scripts">Reel Scripts</option>
-                    <option value="hashtag-research">Hashtag Research</option>
-                    <option value="bio-generator">Bio Generator</option>
-                    <option value="hook-ideas">Hook Ideas</option>
-                    <option value="story-ideas">Story Ideas</option>
-                    <option value="carousel-content">Carousel Content</option>
-                    <option value="engagement-prompts">Engagement Prompts</option>
-                    <option value="content-calendar">Content Calendar</option>
-                    <option value="trend-analysis">Trend Analysis</option>
+                    <option value="caption-ideas">✍️ Caption Ideas</option>
+                    <option value="reel-scripts">🎬 Reel Scripts</option>
+                    <option value="hashtag-research">#️⃣ Hashtag Research</option>
+                    <option value="bio-generator">👤 Bio Generator</option>
+                    <option value="hook-ideas">🎣 Hook Ideas</option>
+                    <option value="story-ideas">📱 Story Ideas</option>
+                    <option value="carousel-content">📊 Carousel Content</option>
+                    <option value="engagement-prompts">💬 Engagement Prompts</option>
+                    <option value="content-calendar">📅 Content Calendar</option>
+                    <option value="trend-analysis">📈 Trend Analysis</option>
                 </select>
                 <select id="nicheFilter" class="filter-select" aria-label="Filter prompts by niche">
                     <option value="all">All Niches</option>
-                    <option value="Fashion">Fashion</option>
-                    <option value="Fitness">Fitness</option>
-                    <option value="Food">Food</option>
-                    <option value="Travel">Travel</option>
-                    <option value="Business">Business</option>
-                    <option value="Lifestyle">Lifestyle</option>
-                    <option value="Beauty">Beauty</option>
-                    <option value="Tech">Tech</option>
-                    <option value="Photography">Photography</option>
-                    <option value="Parenting">Parenting</option>
+                    <option value="Fashion">👗 Fashion</option>
+                    <option value="Fitness">💪 Fitness</option>
+                    <option value="Food">🍕 Food</option>
+                    <option value="Travel">✈️ Travel</option>
+                    <option value="Business">💼 Business</option>
+                    <option value="Lifestyle">🌟 Lifestyle</option>
+                    <option value="Beauty">💄 Beauty</option>
+                    <option value="Tech">💻 Tech</option>
+                    <option value="Photography">📸 Photography</option>
+                    <option value="Parenting">👶 Parenting</option>
                 </select>
                 <select id="toneFilter" class="filter-select" aria-label="Filter prompts by tone and style">
                     <option value="all">All Tones & Styles</option>
-                    <option value="Casual">Casual & Friendly</option>
-                    <option value="Professional">Professional</option>
-                    <option value="Funny">Funny & Humorous</option>
-                    <option value="Motivational">Motivational & Inspirational</option>
-                    <option value="Educational">Educational</option>
-                    <option value="Storytelling">Storytelling</option>
+                    <option value="Casual">😊 Casual & Friendly</option>
+                    <option value="Professional">👔 Professional</option>
+                    <option value="Funny">😂 Funny & Humorous</option>
+                    <option value="Motivational">🔥 Motivational & Inspirational</option>
+                    <option value="Educational">📚 Educational</option>
+                    <option value="Storytelling">📖 Storytelling</option>
                 </select>
             </div>
         </div>
@@ -161,16 +161,16 @@
                     <div class="footer-category-dropdown">
                         <select id="footerCategoryNav" class="footer-select" aria-label="Navigate to category">
                             <option value="">Browse by category...</option>
-                            <option value="browse.html?category=caption-ideas">Caption Ideas (60)</option>
-                            <option value="browse.html?category=reel-scripts">Reel Scripts (60)</option>
-                            <option value="browse.html?category=hook-ideas">Hook Ideas (60)</option>
-                            <option value="browse.html?category=story-ideas">Story Ideas (60)</option>
-                            <option value="browse.html?category=bio-generator">Bio Generator (30)</option>
-                            <option value="browse.html?category=engagement-prompts">Engagement Prompts (30)</option>
-                            <option value="browse.html?category=carousel-content">Carousel Content (20)</option>
-                            <option value="browse.html?category=hashtag-research">Hashtag Research (10)</option>
-                            <option value="browse.html?category=content-calendar">Content Calendar (10)</option>
-                            <option value="browse.html?category=trend-analysis">Trend Analysis (10)</option>
+                            <option value="browse.html?category=caption-ideas">✍️ Caption Ideas (60)</option>
+                            <option value="browse.html?category=reel-scripts">🎬 Reel Scripts (60)</option>
+                            <option value="browse.html?category=hook-ideas">🎣 Hook Ideas (60)</option>
+                            <option value="browse.html?category=story-ideas">📱 Story Ideas (60)</option>
+                            <option value="browse.html?category=bio-generator">👤 Bio Generator (30)</option>
+                            <option value="browse.html?category=engagement-prompts">💬 Engagement Prompts (30)</option>
+                            <option value="browse.html?category=carousel-content">📊 Carousel Content (20)</option>
+                            <option value="browse.html?category=hashtag-research">#️⃣ Hashtag Research (10)</option>
+                            <option value="browse.html?category=content-calendar">📅 Content Calendar (10)</option>
+                            <option value="browse.html?category=trend-analysis">📈 Trend Analysis (10)</option>
                         </select>
                     </div>
                     <ul class="footer-links" style="margin-top: 1rem;">
@@ -233,6 +233,22 @@
     <script>
         // Load prompts database
         let allPrompts = [];
+
+        const CATEGORY_EMOJIS = {
+            'caption-ideas': '✍️', 'reel-scripts': '🎬', 'hashtag-research': '#️⃣',
+            'bio-generator': '👤', 'hook-ideas': '🎣', 'story-ideas': '📱',
+            'carousel-content': '📊', 'engagement-prompts': '💬',
+            'content-calendar': '📅', 'trend-analysis': '📈'
+        };
+        const NICHE_EMOJIS = {
+            'Fashion': '👗', 'Fitness': '💪', 'Food': '🍕', 'Travel': '✈️',
+            'Business': '💼', 'Lifestyle': '🌟', 'Beauty': '💄', 'Tech': '💻',
+            'Photography': '📸', 'Parenting': '👶'
+        };
+        const TONE_EMOJIS = {
+            'Casual': '😊', 'Professional': '👔', 'Funny': '😂',
+            'Motivational': '🔥', 'Educational': '📚', 'Storytelling': '📖'
+        };
 
         async function loadPrompts(retryCount = 0) {
             try {
@@ -319,9 +335,9 @@
             prompts.forEach(prompt => {
                 const card = template.content.cloneNode(true);
 
-                card.querySelector('.prompt-category').textContent = getCategoryName(prompt.category);
-                card.querySelector('.niche-badge').textContent = prompt.niche;
-                card.querySelector('.tone-badge').textContent = prompt.tone;
+                card.querySelector('.prompt-category').textContent = (CATEGORY_EMOJIS[prompt.category] || '') + ' ' + getCategoryName(prompt.category);
+                card.querySelector('.niche-badge').textContent = (NICHE_EMOJIS[prompt.niche] || '') + ' ' + prompt.niche;
+                card.querySelector('.tone-badge').textContent = (TONE_EMOJIS[prompt.tone] || '') + ' ' + prompt.tone;
                 card.querySelector('.prompt-text').textContent = prompt.prompt;
 
                 // Add tags
